@@ -13,7 +13,7 @@ PURPLE="\033[35m"
 CYAN="\033[36m"
 WHITE="\033[37m"
 
-T_PATH=real_printf
+T_PATH=mtests
 M_PATH=${T_PATH}/main
 O_PATH=${T_PATH}/out
 R_PATH=${T_PATH}/results
@@ -23,7 +23,7 @@ exec 2> /dev/null
 result()
 {
 	rm -f ${O_PATH}/${1}${2}.out
-	gcc -I./includes ${M_PATH}/${1}${2}.c -L./ -lftprintf -o ${O_PATH}/${1}${2}.out
+	gcc -I./includes ${M_PATH}/${1}${2}.c -L./ -lftprintf -o ${O_PATH}/${1}${2}.out 2> /dev/null
 	${O_PATH}/${1}${2}.out > ${R_PATH}/${1}${2}.txt
 }
 
@@ -41,6 +41,7 @@ compile()
 {
 	result ${1} pf
 	result ${1} ft
+	rm -f ${R_PATH}/${1}.diff
 	if [ -e ${O_PATH}/${1}ft.out ]
 	then
 		DIFF=$(diff ${R_PATH}/${1}pf.txt ${R_PATH}/${1}ft.txt)
@@ -49,7 +50,6 @@ compile()
 			print_conv ${1}
 			printf "${RED}>>>>>>>>>> FAILURE <<<<<<<<<<\n${DEFAULT}"
 			echo "${DIFF}" > ${R_PATH}/${1}.diff
-			#less ${R_PATH}/${1}.diff
 		else
 			print_conv ${1}
 			printf "${GREEN}>>>>>>>>>> SUCCESS <<<<<<<<<<\n${DEFAULT}"
