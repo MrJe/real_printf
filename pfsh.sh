@@ -125,6 +125,14 @@ do
 	then
 		make
 		compile cu
+	elif [ ${ARG} = "f" ]
+	then
+		make
+		compile f
+	elif [ ${ARG} = "F" ]
+	then
+		make
+		compile fu
 	elif [ ${ARG} = "all" ]
 	then
 		make
@@ -143,6 +151,8 @@ do
 		compile xu
 		compile c
 		compile cu
+		compile f
+		compile fu
 	elif [ ${ARG} = "clean" ]
 	then
 		make fclean
