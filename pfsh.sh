@@ -158,5 +158,6 @@ do
 		make fclean
 		rm -f ${O_PATH}/*
 		rm -f ${R_PATH}/*ft.txt
+		rm -f ${R_PATH}/*.diff
 	fi
 done
