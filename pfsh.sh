@@ -39,7 +39,7 @@ print_conv()
 
 compile()
 {
-	#result ${1} pf
+	result ${1} pf
 	result ${1} ft
 	rm -f ${R_PATH}/${1}.diff
 	if [ -e ${O_PATH}/${1}ft.out ]
