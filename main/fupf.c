@@ -27,7 +27,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15F] - l.%d\n", printf("[%15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%15.0F] - l.%d\n", printf("[%15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%15.5F] - l.%d\n", printf("[%15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%15.20F] - l.%d\n", printf("[%15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%15.15F] - l.%d\n", printf("[%15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#F] - l.%d\n", printf("[%#F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#3F] - l.%d\n", printf("[%#3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#3.0F] - l.%d\n", printf("[%#3.0F]", nb) - 2, __LINE__);
@@ -37,7 +37,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15F] - l.%d\n", printf("[%#15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#15.0F] - l.%d\n", printf("[%#15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#15.5F] - l.%d\n", printf("[%#15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#15.20F] - l.%d\n", printf("[%#15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#15.15F] - l.%d\n", printf("[%#15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0F] - l.%d\n", printf("[%0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%03F] - l.%d\n", printf("[%03F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%03.0F] - l.%d\n", printf("[%03.0F]", nb) - 2, __LINE__);
@@ -47,7 +47,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015F] - l.%d\n", printf("[%015F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%015.0F] - l.%d\n", printf("[%015.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%015.5F] - l.%d\n", printf("[%015.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%015.20F] - l.%d\n", printf("[%015.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%015.15F] - l.%d\n", printf("[%015.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-F] - l.%d\n", printf("[%-F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-3F] - l.%d\n", printf("[%-3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-3.0F] - l.%d\n", printf("[%-3.0F]", nb) - 2, __LINE__);
@@ -62,7 +62,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15F] - l.%d\n", printf("[%+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%+15.0F] - l.%d\n", printf("[%+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%+15.5F] - l.%d\n", printf("[%+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%+15.20F] - l.%d\n", printf("[%+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%+15.15F] - l.%d\n", printf("[%+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%% F] - l.%d\n", printf("[% F]", nb) - 2, __LINE__);
 		printf(" - %d - [%% 3F] - l.%d\n", printf("[% 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%% 3.0F] - l.%d\n", printf("[% 3.0F]", nb) - 2, __LINE__);
@@ -72,7 +72,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15F] - l.%d\n", printf("[% 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%% 15.0F] - l.%d\n", printf("[% 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%% 15.5F] - l.%d\n", printf("[% 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%% 15.20F] - l.%d\n", printf("[% 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%% 15.15F] - l.%d\n", printf("[% 15.15F]", nb) - 2, __LINE__);
 		// h
 		printf(" - %d - [%%hF] - l.%d\n", printf("[%hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%3hF] - l.%d\n", printf("[%3hF]", s) - 2, __LINE__);
@@ -83,7 +83,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15hF] - l.%d\n", printf("[%15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%15.0hF] - l.%d\n", printf("[%15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%15.5hF] - l.%d\n", printf("[%15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%15.20hF] - l.%d\n", printf("[%15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%15.15hF] - l.%d\n", printf("[%15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#hF] - l.%d\n", printf("[%#hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#3hF] - l.%d\n", printf("[%#3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#3.0hF] - l.%d\n", printf("[%#3.0hF]", s) - 2, __LINE__);
@@ -93,7 +93,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15hF] - l.%d\n", printf("[%#15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#15.0hF] - l.%d\n", printf("[%#15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#15.5hF] - l.%d\n", printf("[%#15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#15.20hF] - l.%d\n", printf("[%#15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#15.15hF] - l.%d\n", printf("[%#15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0hF] - l.%d\n", printf("[%0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%03hF] - l.%d\n", printf("[%03hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%03.0hF] - l.%d\n", printf("[%03.0hF]", s) - 2, __LINE__);
@@ -103,7 +103,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015hF] - l.%d\n", printf("[%015hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%015.0hF] - l.%d\n", printf("[%015.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%015.5hF] - l.%d\n", printf("[%015.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%015.20hF] - l.%d\n", printf("[%015.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%015.15hF] - l.%d\n", printf("[%015.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-hF] - l.%d\n", printf("[%-hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-3hF] - l.%d\n", printf("[%-3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-3.0hF] - l.%d\n", printf("[%-3.0hF]", s) - 2, __LINE__);
@@ -118,7 +118,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15hF] - l.%d\n", printf("[%+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%+15.0hF] - l.%d\n", printf("[%+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%+15.5hF] - l.%d\n", printf("[%+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%+15.20hF] - l.%d\n", printf("[%+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%+15.15hF] - l.%d\n", printf("[%+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%% hF] - l.%d\n", printf("[% hF]", s) - 2, __LINE__);
 		printf(" - %d - [%% 3hF] - l.%d\n", printf("[% 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%% 3.0hF] - l.%d\n", printf("[% 3.0hF]", s) - 2, __LINE__);
@@ -128,7 +128,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15hF] - l.%d\n", printf("[% 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%% 15.0hF] - l.%d\n", printf("[% 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%% 15.5hF] - l.%d\n", printf("[% 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%% 15.20hF] - l.%d\n", printf("[% 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%% 15.15hF] - l.%d\n", printf("[% 15.15hF]", s) - 2, __LINE__);
 		// hh
 		printf(" - %d - [%%hhF] - l.%d\n", printf("[%hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%3hhF] - l.%d\n", printf("[%3hhF]", c) - 2, __LINE__);
@@ -139,7 +139,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15hhF] - l.%d\n", printf("[%15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%15.0hhF] - l.%d\n", printf("[%15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%15.5hhF] - l.%d\n", printf("[%15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%15.20hhF] - l.%d\n", printf("[%15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%15.15hhF] - l.%d\n", printf("[%15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#hhF] - l.%d\n", printf("[%#hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#3hhF] - l.%d\n", printf("[%#3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#3.0hhF] - l.%d\n", printf("[%#3.0hhF]", c) - 2, __LINE__);
@@ -149,7 +149,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15hhF] - l.%d\n", printf("[%#15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#15.0hhF] - l.%d\n", printf("[%#15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#15.5hhF] - l.%d\n", printf("[%#15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#15.20hhF] - l.%d\n", printf("[%#15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#15.15hhF] - l.%d\n", printf("[%#15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0hhF] - l.%d\n", printf("[%0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%03hhF] - l.%d\n", printf("[%03hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%03.0hhF] - l.%d\n", printf("[%03.0hhF]", c) - 2, __LINE__);
@@ -159,7 +159,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015hhF] - l.%d\n", printf("[%015hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%015.0hhF] - l.%d\n", printf("[%015.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%015.5hhF] - l.%d\n", printf("[%015.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%015.20hhF] - l.%d\n", printf("[%015.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%015.15hhF] - l.%d\n", printf("[%015.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-hhF] - l.%d\n", printf("[%-hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-3hhF] - l.%d\n", printf("[%-3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-3.0hhF] - l.%d\n", printf("[%-3.0hhF]", c) - 2, __LINE__);
@@ -174,7 +174,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15hhF] - l.%d\n", printf("[%+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%+15.0hhF] - l.%d\n", printf("[%+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%+15.5hhF] - l.%d\n", printf("[%+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%+15.20hhF] - l.%d\n", printf("[%+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%+15.15hhF] - l.%d\n", printf("[%+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%% hhF] - l.%d\n", printf("[% hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%% 3hhF] - l.%d\n", printf("[% 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%% 3.0hhF] - l.%d\n", printf("[% 3.0hhF]", c) - 2, __LINE__);
@@ -184,7 +184,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15hhF] - l.%d\n", printf("[% 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%% 15.0hhF] - l.%d\n", printf("[% 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%% 15.5hhF] - l.%d\n", printf("[% 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%% 15.20hhF] - l.%d\n", printf("[% 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%% 15.15hhF] - l.%d\n", printf("[% 15.15hhF]", c) - 2, __LINE__);
 		// l
 		printf(" - %d - [%%lF] - l.%d\n", printf("[%lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%3lF] - l.%d\n", printf("[%3lF]", l) - 2, __LINE__);
@@ -195,7 +195,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15lF] - l.%d\n", printf("[%15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%15.0lF] - l.%d\n", printf("[%15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%15.5lF] - l.%d\n", printf("[%15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%15.20lF] - l.%d\n", printf("[%15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%15.15lF] - l.%d\n", printf("[%15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#lF] - l.%d\n", printf("[%#lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#3lF] - l.%d\n", printf("[%#3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#3.0lF] - l.%d\n", printf("[%#3.0lF]", l) - 2, __LINE__);
@@ -205,7 +205,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15lF] - l.%d\n", printf("[%#15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#15.0lF] - l.%d\n", printf("[%#15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#15.5lF] - l.%d\n", printf("[%#15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#15.20lF] - l.%d\n", printf("[%#15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#15.15lF] - l.%d\n", printf("[%#15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0lF] - l.%d\n", printf("[%0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%03lF] - l.%d\n", printf("[%03lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%03.0lF] - l.%d\n", printf("[%03.0lF]", l) - 2, __LINE__);
@@ -215,7 +215,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015lF] - l.%d\n", printf("[%015lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%015.0lF] - l.%d\n", printf("[%015.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%015.5lF] - l.%d\n", printf("[%015.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%015.20lF] - l.%d\n", printf("[%015.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%015.15lF] - l.%d\n", printf("[%015.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-lF] - l.%d\n", printf("[%-lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-3lF] - l.%d\n", printf("[%-3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-3.0lF] - l.%d\n", printf("[%-3.0lF]", l) - 2, __LINE__);
@@ -230,7 +230,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15lF] - l.%d\n", printf("[%+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%+15.0lF] - l.%d\n", printf("[%+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%+15.5lF] - l.%d\n", printf("[%+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%+15.20lF] - l.%d\n", printf("[%+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%+15.15lF] - l.%d\n", printf("[%+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%% lF] - l.%d\n", printf("[% lF]", l) - 2, __LINE__);
 		printf(" - %d - [%% 3lF] - l.%d\n", printf("[% 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%% 3.0lF] - l.%d\n", printf("[% 3.0lF]", l) - 2, __LINE__);
@@ -240,7 +240,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15lF] - l.%d\n", printf("[% 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%% 15.0lF] - l.%d\n", printf("[% 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%% 15.5lF] - l.%d\n", printf("[% 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%% 15.20lF] - l.%d\n", printf("[% 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%% 15.15lF] - l.%d\n", printf("[% 15.15lF]", l) - 2, __LINE__);
 		// ll
 		printf(" - %d - [%%llF] - l.%d\n", printf("[%llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%3llF] - l.%d\n", printf("[%3llF]", ll) - 2, __LINE__);
@@ -251,7 +251,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15llF] - l.%d\n", printf("[%15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%15.0llF] - l.%d\n", printf("[%15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%15.5llF] - l.%d\n", printf("[%15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%15.20llF] - l.%d\n", printf("[%15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%15.15llF] - l.%d\n", printf("[%15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#llF] - l.%d\n", printf("[%#llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#3llF] - l.%d\n", printf("[%#3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#3.0llF] - l.%d\n", printf("[%#3.0llF]", ll) - 2, __LINE__);
@@ -261,7 +261,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15llF] - l.%d\n", printf("[%#15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#15.0llF] - l.%d\n", printf("[%#15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#15.5llF] - l.%d\n", printf("[%#15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#15.20llF] - l.%d\n", printf("[%#15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#15.15llF] - l.%d\n", printf("[%#15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0llF] - l.%d\n", printf("[%0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%03llF] - l.%d\n", printf("[%03llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%03.0llF] - l.%d\n", printf("[%03.0llF]", ll) - 2, __LINE__);
@@ -271,7 +271,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015llF] - l.%d\n", printf("[%015llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%015.0llF] - l.%d\n", printf("[%015.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%015.5llF] - l.%d\n", printf("[%015.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%015.20llF] - l.%d\n", printf("[%015.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%015.15llF] - l.%d\n", printf("[%015.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-llF] - l.%d\n", printf("[%-llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-3llF] - l.%d\n", printf("[%-3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-3.0llF] - l.%d\n", printf("[%-3.0llF]", ll) - 2, __LINE__);
@@ -286,7 +286,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15llF] - l.%d\n", printf("[%+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%+15.0llF] - l.%d\n", printf("[%+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%+15.5llF] - l.%d\n", printf("[%+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%+15.20llF] - l.%d\n", printf("[%+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%+15.15llF] - l.%d\n", printf("[%+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%% llF] - l.%d\n", printf("[% llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%% 3llF] - l.%d\n", printf("[% 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%% 3.0llF] - l.%d\n", printf("[% 3.0llF]", ll) - 2, __LINE__);
@@ -296,7 +296,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15llF] - l.%d\n", printf("[% 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%% 15.0llF] - l.%d\n", printf("[% 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%% 15.5llF] - l.%d\n", printf("[% 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%% 15.20llF] - l.%d\n", printf("[% 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%% 15.15llF] - l.%d\n", printf("[% 15.15llF]", ll) - 2, __LINE__);
 		// j
 		printf(" - %d - [%%jF] - l.%d\n", printf("[%jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%3jF] - l.%d\n", printf("[%3jF]", im) - 2, __LINE__);
@@ -307,7 +307,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15jF] - l.%d\n", printf("[%15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%15.0jF] - l.%d\n", printf("[%15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%15.5jF] - l.%d\n", printf("[%15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%15.20jF] - l.%d\n", printf("[%15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%15.15jF] - l.%d\n", printf("[%15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#jF] - l.%d\n", printf("[%#jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#3jF] - l.%d\n", printf("[%#3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#3.0jF] - l.%d\n", printf("[%#3.0jF]", im) - 2, __LINE__);
@@ -317,7 +317,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15jF] - l.%d\n", printf("[%#15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#15.0jF] - l.%d\n", printf("[%#15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#15.5jF] - l.%d\n", printf("[%#15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#15.20jF] - l.%d\n", printf("[%#15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#15.15jF] - l.%d\n", printf("[%#15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0jF] - l.%d\n", printf("[%0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%03jF] - l.%d\n", printf("[%03jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%03.0jF] - l.%d\n", printf("[%03.0jF]", im) - 2, __LINE__);
@@ -327,7 +327,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015jF] - l.%d\n", printf("[%015jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%015.0jF] - l.%d\n", printf("[%015.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%015.5jF] - l.%d\n", printf("[%015.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%015.20jF] - l.%d\n", printf("[%015.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%015.15jF] - l.%d\n", printf("[%015.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-jF] - l.%d\n", printf("[%-jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-3jF] - l.%d\n", printf("[%-3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-3.0jF] - l.%d\n", printf("[%-3.0jF]", im) - 2, __LINE__);
@@ -342,7 +342,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15jF] - l.%d\n", printf("[%+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%+15.0jF] - l.%d\n", printf("[%+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%+15.5jF] - l.%d\n", printf("[%+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%+15.20jF] - l.%d\n", printf("[%+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%+15.15jF] - l.%d\n", printf("[%+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%% jF] - l.%d\n", printf("[% jF]", im) - 2, __LINE__);
 		printf(" - %d - [%% 3jF] - l.%d\n", printf("[% 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%% 3.0jF] - l.%d\n", printf("[% 3.0jF]", im) - 2, __LINE__);
@@ -352,7 +352,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15jF] - l.%d\n", printf("[% 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%% 15.0jF] - l.%d\n", printf("[% 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%% 15.5jF] - l.%d\n", printf("[% 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%% 15.20jF] - l.%d\n", printf("[% 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%% 15.15jF] - l.%d\n", printf("[% 15.15jF]", im) - 2, __LINE__);
 		// z
 		printf(" - %d - [%%zF] - l.%d\n", printf("[%zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%3zF] - l.%d\n", printf("[%3zF]", st) - 2, __LINE__);
@@ -363,7 +363,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%15zF] - l.%d\n", printf("[%15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%15.0zF] - l.%d\n", printf("[%15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%15.5zF] - l.%d\n", printf("[%15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%15.20zF] - l.%d\n", printf("[%15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%15.15zF] - l.%d\n", printf("[%15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#zF] - l.%d\n", printf("[%#zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#3zF] - l.%d\n", printf("[%#3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#3.0zF] - l.%d\n", printf("[%#3.0zF]", st) - 2, __LINE__);
@@ -373,7 +373,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#15zF] - l.%d\n", printf("[%#15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#15.0zF] - l.%d\n", printf("[%#15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#15.5zF] - l.%d\n", printf("[%#15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#15.20zF] - l.%d\n", printf("[%#15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#15.15zF] - l.%d\n", printf("[%#15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0zF] - l.%d\n", printf("[%0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%03zF] - l.%d\n", printf("[%03zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%03.0zF] - l.%d\n", printf("[%03.0zF]", st) - 2, __LINE__);
@@ -383,7 +383,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%015zF] - l.%d\n", printf("[%015zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%015.0zF] - l.%d\n", printf("[%015.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%015.5zF] - l.%d\n", printf("[%015.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%015.20zF] - l.%d\n", printf("[%015.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%015.15zF] - l.%d\n", printf("[%015.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-zF] - l.%d\n", printf("[%-zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-3zF] - l.%d\n", printf("[%-3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-3.0zF] - l.%d\n", printf("[%-3.0zF]", st) - 2, __LINE__);
@@ -398,7 +398,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+15zF] - l.%d\n", printf("[%+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%+15.0zF] - l.%d\n", printf("[%+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%+15.5zF] - l.%d\n", printf("[%+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%+15.20zF] - l.%d\n", printf("[%+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%+15.15zF] - l.%d\n", printf("[%+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%% zF] - l.%d\n", printf("[% zF]", st) - 2, __LINE__);
 		printf(" - %d - [%% 3zF] - l.%d\n", printf("[% 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%% 3.0zF] - l.%d\n", printf("[% 3.0zF]", st) - 2, __LINE__);
@@ -408,7 +408,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%% 15zF] - l.%d\n", printf("[% 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%% 15.0zF] - l.%d\n", printf("[% 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%% 15.5zF] - l.%d\n", printf("[% 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%% 15.20zF] - l.%d\n", printf("[% 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%% 15.15zF] - l.%d\n", printf("[% 15.15zF]", st) - 2, __LINE__);
 		// mlti flags 413 - 683
 		// #0
 		printf(" - %d - [%%#0F] - l.%d\n", printf("[%#0F]", nb) - 2, __LINE__);
@@ -420,7 +420,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015F] - l.%d\n", printf("[%#015F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#015.0F] - l.%d\n", printf("[%#015.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#015.5F] - l.%d\n", printf("[%#015.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#015.20F] - l.%d\n", printf("[%#015.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#015.15F] - l.%d\n", printf("[%#015.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-F] - l.%d\n", printf("[%#0-F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-3F] - l.%d\n", printf("[%#0-3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0F] - l.%d\n", printf("[%#0-3.0F]", nb) - 2, __LINE__);
@@ -430,7 +430,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15F] - l.%d\n", printf("[%#0-15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0F] - l.%d\n", printf("[%#0-15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5F] - l.%d\n", printf("[%#0-15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20F] - l.%d\n", printf("[%#0-15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15F] - l.%d\n", printf("[%#0-15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+F] - l.%d\n", printf("[%#0-+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3F] - l.%d\n", printf("[%#0-+3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0F] - l.%d\n", printf("[%#0-+3.0F]", nb) - 2, __LINE__);
@@ -440,7 +440,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15F] - l.%d\n", printf("[%#0-+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0F] - l.%d\n", printf("[%#0-+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5F] - l.%d\n", printf("[%#0-+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20F] - l.%d\n", printf("[%#0-+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15F] - l.%d\n", printf("[%#0-+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0- F] - l.%d\n", printf("[%#0- F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3F] - l.%d\n", printf("[%#0- 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0F] - l.%d\n", printf("[%#0- 3.0F]", nb) - 2, __LINE__);
@@ -450,7 +450,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15F] - l.%d\n", printf("[%#0- 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0F] - l.%d\n", printf("[%#0- 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5F] - l.%d\n", printf("[%#0- 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20F] - l.%d\n", printf("[%#0- 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15F] - l.%d\n", printf("[%#0- 15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ F] - l.%d\n", printf("[%#0-+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3F] - l.%d\n", printf("[%#0-+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0F] - l.%d\n", printf("[%#0-+ 3.0F]", nb) - 2, __LINE__);
@@ -460,7 +460,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15F] - l.%d\n", printf("[%#0-+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0F] - l.%d\n", printf("[%#0-+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5F] - l.%d\n", printf("[%#0-+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20F] - l.%d\n", printf("[%#0-+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15F] - l.%d\n", printf("[%#0-+ 15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+F] - l.%d\n", printf("[%#0+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+3F] - l.%d\n", printf("[%#0+3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0F] - l.%d\n", printf("[%#0+3.0F]", nb) - 2, __LINE__);
@@ -470,7 +470,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15F] - l.%d\n", printf("[%#0+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0F] - l.%d\n", printf("[%#0+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5F] - l.%d\n", printf("[%#0+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20F] - l.%d\n", printf("[%#0+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15F] - l.%d\n", printf("[%#0+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+ F] - l.%d\n", printf("[%#0+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3F] - l.%d\n", printf("[%#0+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0F] - l.%d\n", printf("[%#0+ 3.0F]", nb) - 2, __LINE__);
@@ -480,7 +480,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15F] - l.%d\n", printf("[%#0+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0F] - l.%d\n", printf("[%#0+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5F] - l.%d\n", printf("[%#0+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20F] - l.%d\n", printf("[%#0+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15F] - l.%d\n", printf("[%#0+ 15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0 F] - l.%d\n", printf("[%#0 F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0 3F] - l.%d\n", printf("[%#0 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0F] - l.%d\n", printf("[%#0 3.0F]", nb) - 2, __LINE__);
@@ -490,7 +490,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15F] - l.%d\n", printf("[%#0 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0F] - l.%d\n", printf("[%#0 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5F] - l.%d\n", printf("[%#0 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20F] - l.%d\n", printf("[%#0 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15F] - l.%d\n", printf("[%#0 15.15F]", nb) - 2, __LINE__);
 		// #-
 		printf(" - %d - [%%#-F] - l.%d\n", printf("[%#-F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-3F] - l.%d\n", printf("[%#-3F]", nb) - 2, __LINE__);
@@ -501,7 +501,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15F] - l.%d\n", printf("[%#-15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0F] - l.%d\n", printf("[%#-15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5F] - l.%d\n", printf("[%#-15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20F] - l.%d\n", printf("[%#-15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15F] - l.%d\n", printf("[%#-15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+F] - l.%d\n", printf("[%#-+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+3F] - l.%d\n", printf("[%#-+3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0F] - l.%d\n", printf("[%#-+3.0F]", nb) - 2, __LINE__);
@@ -511,7 +511,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15F] - l.%d\n", printf("[%#-+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0F] - l.%d\n", printf("[%#-+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5F] - l.%d\n", printf("[%#-+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20F] - l.%d\n", printf("[%#-+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15F] - l.%d\n", printf("[%#-+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#- F] - l.%d\n", printf("[%#- F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#- 3F] - l.%d\n", printf("[%#- 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0F] - l.%d\n", printf("[%#- 3.0F]", nb) - 2, __LINE__);
@@ -521,7 +521,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15F] - l.%d\n", printf("[%#- 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0F] - l.%d\n", printf("[%#- 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5F] - l.%d\n", printf("[%#- 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20F] - l.%d\n", printf("[%#- 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15F] - l.%d\n", printf("[%#- 15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+ F] - l.%d\n", printf("[%#-+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3F] - l.%d\n", printf("[%#-+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0F] - l.%d\n", printf("[%#-+ 3.0F]", nb) - 2, __LINE__);
@@ -531,7 +531,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15F] - l.%d\n", printf("[%#-+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0F] - l.%d\n", printf("[%#-+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5F] - l.%d\n", printf("[%#-+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20F] - l.%d\n", printf("[%#-+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15F] - l.%d\n", printf("[%#-+ 15.15F]", nb) - 2, __LINE__);
 		// +
 		printf(" - %d - [%%#+F] - l.%d\n", printf("[%#+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+3F] - l.%d\n", printf("[%#+3F]", nb) - 2, __LINE__);
@@ -542,7 +542,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15F] - l.%d\n", printf("[%#+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0F] - l.%d\n", printf("[%#+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5F] - l.%d\n", printf("[%#+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20F] - l.%d\n", printf("[%#+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15F] - l.%d\n", printf("[%#+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+ F] - l.%d\n", printf("[%#+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3F] - l.%d\n", printf("[%#+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0F] - l.%d\n", printf("[%#+ 3.0F]", nb) - 2, __LINE__);
@@ -552,7 +552,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15F] - l.%d\n", printf("[%#+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0F] - l.%d\n", printf("[%#+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5F] - l.%d\n", printf("[%#+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20F] - l.%d\n", printf("[%#+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15F] - l.%d\n", printf("[%#+ 15.15F]", nb) - 2, __LINE__);
 		// #' '
 		printf(" - %d - [%%# F] - l.%d\n", printf("[%# F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%# 3F] - l.%d\n", printf("[%# 3F]", nb) - 2, __LINE__);
@@ -563,7 +563,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15F] - l.%d\n", printf("[%# 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0F] - l.%d\n", printf("[%# 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5F] - l.%d\n", printf("[%# 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20F] - l.%d\n", printf("[%# 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15F] - l.%d\n", printf("[%# 15.15F]", nb) - 2, __LINE__);
 		// 0-
 		printf(" - %d - [%%0-F] - l.%d\n", printf("[%0-F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-3F] - l.%d\n", printf("[%0-3F]", nb) - 2, __LINE__);
@@ -574,7 +574,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15F] - l.%d\n", printf("[%0-15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0F] - l.%d\n", printf("[%0-15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5F] - l.%d\n", printf("[%0-15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20F] - l.%d\n", printf("[%0-15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15F] - l.%d\n", printf("[%0-15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+F] - l.%d\n", printf("[%0-+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+3F] - l.%d\n", printf("[%0-+3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0F] - l.%d\n", printf("[%0-+3.0F]", nb) - 2, __LINE__);
@@ -584,7 +584,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15F] - l.%d\n", printf("[%0-+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0F] - l.%d\n", printf("[%0-+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5F] - l.%d\n", printf("[%0-+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20F] - l.%d\n", printf("[%0-+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15F] - l.%d\n", printf("[%0-+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+ F] - l.%d\n", printf("[%0-+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3F] - l.%d\n", printf("[%0-+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0F] - l.%d\n", printf("[%0-+ 3.0F]", nb) - 2, __LINE__);
@@ -594,7 +594,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15F] - l.%d\n", printf("[%0-+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0F] - l.%d\n", printf("[%0-+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5F] - l.%d\n", printf("[%0-+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20F] - l.%d\n", printf("[%0-+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15F] - l.%d\n", printf("[%0-+ 15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0- F] - l.%d\n", printf("[%0- F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0- 3F] - l.%d\n", printf("[%0- 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0F] - l.%d\n", printf("[%0- 3.0F]", nb) - 2, __LINE__);
@@ -604,7 +604,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15F] - l.%d\n", printf("[%0- 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0F] - l.%d\n", printf("[%0- 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5F] - l.%d\n", printf("[%0- 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20F] - l.%d\n", printf("[%0- 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15F] - l.%d\n", printf("[%0- 15.15F]", nb) - 2, __LINE__);
 		// 0+
 		printf(" - %d - [%%0+F] - l.%d\n", printf("[%0+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+3F] - l.%d\n", printf("[%0+3F]", nb) - 2, __LINE__);
@@ -615,7 +615,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15F] - l.%d\n", printf("[%0+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0F] - l.%d\n", printf("[%0+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5F] - l.%d\n", printf("[%0+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20F] - l.%d\n", printf("[%0+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15F] - l.%d\n", printf("[%0+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+ F] - l.%d\n", printf("[%0+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3F] - l.%d\n", printf("[%0+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0F] - l.%d\n", printf("[%0+ 3.0F]", nb) - 2, __LINE__);
@@ -625,7 +625,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15F] - l.%d\n", printf("[%0+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0F] - l.%d\n", printf("[%0+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5F] - l.%d\n", printf("[%0+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20F] - l.%d\n", printf("[%0+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15F] - l.%d\n", printf("[%0+ 15.15F]", nb) - 2, __LINE__);
 		// 0' '
 		printf(" - %d - [%%0 F] - l.%d\n", printf("[%0 F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0 3F] - l.%d\n", printf("[%0 3F]", nb) - 2, __LINE__);
@@ -636,7 +636,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15F] - l.%d\n", printf("[%0 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0F] - l.%d\n", printf("[%0 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5F] - l.%d\n", printf("[%0 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20F] - l.%d\n", printf("[%0 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15F] - l.%d\n", printf("[%0 15.15F]", nb) - 2, __LINE__);
 		// -+
 		printf(" - %d - [%%-+F] - l.%d\n", printf("[%-+F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+3F] - l.%d\n", printf("[%-+3F]", nb) - 2, __LINE__);
@@ -647,7 +647,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15F] - l.%d\n", printf("[%-+15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0F] - l.%d\n", printf("[%-+15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5F] - l.%d\n", printf("[%-+15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20F] - l.%d\n", printf("[%-+15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15F] - l.%d\n", printf("[%-+15.15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+ F] - l.%d\n", printf("[%-+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3F] - l.%d\n", printf("[%-+ 3F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0F] - l.%d\n", printf("[%-+ 3.0F]", nb) - 2, __LINE__);
@@ -657,7 +657,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15F] - l.%d\n", printf("[%-+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0F] - l.%d\n", printf("[%-+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5F] - l.%d\n", printf("[%-+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20F] - l.%d\n", printf("[%-+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15F] - l.%d\n", printf("[%-+ 15.15F]", nb) - 2, __LINE__);
 		// -' '
 		printf(" - %d - [%%- F] - l.%d\n", printf("[%- F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%- 3F] - l.%d\n", printf("[%- 3F]", nb) - 2, __LINE__);
@@ -668,7 +668,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15F] - l.%d\n", printf("[%- 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0F] - l.%d\n", printf("[%- 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5F] - l.%d\n", printf("[%- 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20F] - l.%d\n", printf("[%- 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15F] - l.%d\n", printf("[%- 15.15F]", nb) - 2, __LINE__);
 		// +' '
 		printf(" - %d - [%%+ F] - l.%d\n", printf("[%+ F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%+ 3F] - l.%d\n", printf("[%+ 3F]", nb) - 2, __LINE__);
@@ -679,7 +679,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15F] - l.%d\n", printf("[%+ 15F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0F] - l.%d\n", printf("[%+ 15.0F]", nb) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5F] - l.%d\n", printf("[%+ 15.5F]", nb) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20F] - l.%d\n", printf("[%+ 15.20F]", nb) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15F] - l.%d\n", printf("[%+ 15.15F]", nb) - 2, __LINE__);
 
 		// #0 h
 		printf(" - %d - [%%#0hF] - l.%d\n", printf("[%#0hF]", s) - 2, __LINE__);
@@ -691,7 +691,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015hF] - l.%d\n", printf("[%#015hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#015.0hF] - l.%d\n", printf("[%#015.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#015.5hF] - l.%d\n", printf("[%#015.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#015.20hF] - l.%d\n", printf("[%#015.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#015.15hF] - l.%d\n", printf("[%#015.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-hF] - l.%d\n", printf("[%#0-hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-3hF] - l.%d\n", printf("[%#0-3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0hF] - l.%d\n", printf("[%#0-3.0hF]", s) - 2, __LINE__);
@@ -701,7 +701,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15hF] - l.%d\n", printf("[%#0-15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0hF] - l.%d\n", printf("[%#0-15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5hF] - l.%d\n", printf("[%#0-15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20hF] - l.%d\n", printf("[%#0-15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15hF] - l.%d\n", printf("[%#0-15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+hF] - l.%d\n", printf("[%#0-+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3hF] - l.%d\n", printf("[%#0-+3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0hF] - l.%d\n", printf("[%#0-+3.0hF]", s) - 2, __LINE__);
@@ -711,7 +711,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15hF] - l.%d\n", printf("[%#0-+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0hF] - l.%d\n", printf("[%#0-+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5hF] - l.%d\n", printf("[%#0-+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20hF] - l.%d\n", printf("[%#0-+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15hF] - l.%d\n", printf("[%#0-+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0- hF] - l.%d\n", printf("[%#0- hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3hF] - l.%d\n", printf("[%#0- 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0hF] - l.%d\n", printf("[%#0- 3.0hF]", s) - 2, __LINE__);
@@ -721,7 +721,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15hF] - l.%d\n", printf("[%#0- 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0hF] - l.%d\n", printf("[%#0- 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5hF] - l.%d\n", printf("[%#0- 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20hF] - l.%d\n", printf("[%#0- 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15hF] - l.%d\n", printf("[%#0- 15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ hF] - l.%d\n", printf("[%#0-+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3hF] - l.%d\n", printf("[%#0-+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0hF] - l.%d\n", printf("[%#0-+ 3.0hF]", s) - 2, __LINE__);
@@ -731,7 +731,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15hF] - l.%d\n", printf("[%#0-+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0hF] - l.%d\n", printf("[%#0-+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5hF] - l.%d\n", printf("[%#0-+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20hF] - l.%d\n", printf("[%#0-+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15hF] - l.%d\n", printf("[%#0-+ 15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+hF] - l.%d\n", printf("[%#0+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+3hF] - l.%d\n", printf("[%#0+3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0hF] - l.%d\n", printf("[%#0+3.0hF]", s) - 2, __LINE__);
@@ -741,7 +741,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15hF] - l.%d\n", printf("[%#0+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0hF] - l.%d\n", printf("[%#0+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5hF] - l.%d\n", printf("[%#0+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20hF] - l.%d\n", printf("[%#0+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15hF] - l.%d\n", printf("[%#0+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+ hF] - l.%d\n", printf("[%#0+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3hF] - l.%d\n", printf("[%#0+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0hF] - l.%d\n", printf("[%#0+ 3.0hF]", s) - 2, __LINE__);
@@ -751,7 +751,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15hF] - l.%d\n", printf("[%#0+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0hF] - l.%d\n", printf("[%#0+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5hF] - l.%d\n", printf("[%#0+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20hF] - l.%d\n", printf("[%#0+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15hF] - l.%d\n", printf("[%#0+ 15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0 hF] - l.%d\n", printf("[%#0 hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0 3hF] - l.%d\n", printf("[%#0 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0hF] - l.%d\n", printf("[%#0 3.0hF]", s) - 2, __LINE__);
@@ -761,7 +761,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15hF] - l.%d\n", printf("[%#0 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0hF] - l.%d\n", printf("[%#0 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5hF] - l.%d\n", printf("[%#0 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20hF] - l.%d\n", printf("[%#0 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15hF] - l.%d\n", printf("[%#0 15.15hF]", s) - 2, __LINE__);
 		// #-h
 		printf(" - %d - [%%#-hF] - l.%d\n", printf("[%#-hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-3hF] - l.%d\n", printf("[%#-3hF]", s) - 2, __LINE__);
@@ -772,7 +772,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15hF] - l.%d\n", printf("[%#-15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0hF] - l.%d\n", printf("[%#-15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5hF] - l.%d\n", printf("[%#-15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20hF] - l.%d\n", printf("[%#-15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15hF] - l.%d\n", printf("[%#-15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+hF] - l.%d\n", printf("[%#-+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+3hF] - l.%d\n", printf("[%#-+3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0hF] - l.%d\n", printf("[%#-+3.0hF]", s) - 2, __LINE__);
@@ -782,7 +782,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15hF] - l.%d\n", printf("[%#-+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0hF] - l.%d\n", printf("[%#-+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5hF] - l.%d\n", printf("[%#-+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20hF] - l.%d\n", printf("[%#-+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15hF] - l.%d\n", printf("[%#-+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#- hF] - l.%d\n", printf("[%#- hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#- 3hF] - l.%d\n", printf("[%#- 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0hF] - l.%d\n", printf("[%#- 3.0hF]", s) - 2, __LINE__);
@@ -792,7 +792,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15hF] - l.%d\n", printf("[%#- 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0hF] - l.%d\n", printf("[%#- 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5hF] - l.%d\n", printf("[%#- 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20hF] - l.%d\n", printf("[%#- 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15hF] - l.%d\n", printf("[%#- 15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+ hF] - l.%d\n", printf("[%#-+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3hF] - l.%d\n", printf("[%#-+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0hF] - l.%d\n", printf("[%#-+ 3.0hF]", s) - 2, __LINE__);
@@ -802,7 +802,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15hF] - l.%d\n", printf("[%#-+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0hF] - l.%d\n", printf("[%#-+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5hF] - l.%d\n", printf("[%#-+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20hF] - l.%d\n", printf("[%#-+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15hF] - l.%d\n", printf("[%#-+ 15.15hF]", s) - 2, __LINE__);
 		// +h
 		printf(" - %d - [%%#+hF] - l.%d\n", printf("[%#+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+3hF] - l.%d\n", printf("[%#+3hF]", s) - 2, __LINE__);
@@ -813,7 +813,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15hF] - l.%d\n", printf("[%#+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0hF] - l.%d\n", printf("[%#+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5hF] - l.%d\n", printf("[%#+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20hF] - l.%d\n", printf("[%#+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15hF] - l.%d\n", printf("[%#+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+ hF] - l.%d\n", printf("[%#+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3hF] - l.%d\n", printf("[%#+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0hF] - l.%d\n", printf("[%#+ 3.0hF]", s) - 2, __LINE__);
@@ -823,7 +823,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15hF] - l.%d\n", printf("[%#+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0hF] - l.%d\n", printf("[%#+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5hF] - l.%d\n", printf("[%#+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20hF] - l.%d\n", printf("[%#+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15hF] - l.%d\n", printf("[%#+ 15.15hF]", s) - 2, __LINE__);
 		// #' 'h
 		printf(" - %d - [%%# hF] - l.%d\n", printf("[%# hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%# 3hF] - l.%d\n", printf("[%# 3hF]", s) - 2, __LINE__);
@@ -834,7 +834,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15hF] - l.%d\n", printf("[%# 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0hF] - l.%d\n", printf("[%# 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5hF] - l.%d\n", printf("[%# 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20hF] - l.%d\n", printf("[%# 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15hF] - l.%d\n", printf("[%# 15.15hF]", s) - 2, __LINE__);
 		// 0-h
 		printf(" - %d - [%%0-hF] - l.%d\n", printf("[%0-hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-3hF] - l.%d\n", printf("[%0-3hF]", s) - 2, __LINE__);
@@ -845,7 +845,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15hF] - l.%d\n", printf("[%0-15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0hF] - l.%d\n", printf("[%0-15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5hF] - l.%d\n", printf("[%0-15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20hF] - l.%d\n", printf("[%0-15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15hF] - l.%d\n", printf("[%0-15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+hF] - l.%d\n", printf("[%0-+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+3hF] - l.%d\n", printf("[%0-+3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0hF] - l.%d\n", printf("[%0-+3.0hF]", s) - 2, __LINE__);
@@ -855,7 +855,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15hF] - l.%d\n", printf("[%0-+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0hF] - l.%d\n", printf("[%0-+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5hF] - l.%d\n", printf("[%0-+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20hF] - l.%d\n", printf("[%0-+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15hF] - l.%d\n", printf("[%0-+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+ hF] - l.%d\n", printf("[%0-+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3hF] - l.%d\n", printf("[%0-+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0hF] - l.%d\n", printf("[%0-+ 3.0hF]", s) - 2, __LINE__);
@@ -865,7 +865,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15hF] - l.%d\n", printf("[%0-+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0hF] - l.%d\n", printf("[%0-+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5hF] - l.%d\n", printf("[%0-+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20hF] - l.%d\n", printf("[%0-+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15hF] - l.%d\n", printf("[%0-+ 15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0- hF] - l.%d\n", printf("[%0- hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0- 3hF] - l.%d\n", printf("[%0- 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0hF] - l.%d\n", printf("[%0- 3.0hF]", s) - 2, __LINE__);
@@ -875,7 +875,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15hF] - l.%d\n", printf("[%0- 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0hF] - l.%d\n", printf("[%0- 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5hF] - l.%d\n", printf("[%0- 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20hF] - l.%d\n", printf("[%0- 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15hF] - l.%d\n", printf("[%0- 15.15hF]", s) - 2, __LINE__);
 		// 0+h
 		printf(" - %d - [%%0+hF] - l.%d\n", printf("[%0+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+3hF] - l.%d\n", printf("[%0+3hF]", s) - 2, __LINE__);
@@ -886,7 +886,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15hF] - l.%d\n", printf("[%0+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0hF] - l.%d\n", printf("[%0+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5hF] - l.%d\n", printf("[%0+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20hF] - l.%d\n", printf("[%0+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15hF] - l.%d\n", printf("[%0+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+ hF] - l.%d\n", printf("[%0+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3hF] - l.%d\n", printf("[%0+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0hF] - l.%d\n", printf("[%0+ 3.0hF]", s) - 2, __LINE__);
@@ -896,7 +896,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15hF] - l.%d\n", printf("[%0+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0hF] - l.%d\n", printf("[%0+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5hF] - l.%d\n", printf("[%0+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20hF] - l.%d\n", printf("[%0+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15hF] - l.%d\n", printf("[%0+ 15.15hF]", s) - 2, __LINE__);
 		// 0' 'h
 		printf(" - %d - [%%0 hF] - l.%d\n", printf("[%0 hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0 3hF] - l.%d\n", printf("[%0 3hF]", s) - 2, __LINE__);
@@ -907,7 +907,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15hF] - l.%d\n", printf("[%0 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0hF] - l.%d\n", printf("[%0 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5hF] - l.%d\n", printf("[%0 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20hF] - l.%d\n", printf("[%0 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15hF] - l.%d\n", printf("[%0 15.15hF]", s) - 2, __LINE__);
 		// -+h
 		printf(" - %d - [%%-+hF] - l.%d\n", printf("[%-+hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+3hF] - l.%d\n", printf("[%-+3hF]", s) - 2, __LINE__);
@@ -918,7 +918,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15hF] - l.%d\n", printf("[%-+15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0hF] - l.%d\n", printf("[%-+15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5hF] - l.%d\n", printf("[%-+15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20hF] - l.%d\n", printf("[%-+15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15hF] - l.%d\n", printf("[%-+15.15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+ hF] - l.%d\n", printf("[%-+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3hF] - l.%d\n", printf("[%-+ 3hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0hF] - l.%d\n", printf("[%-+ 3.0hF]", s) - 2, __LINE__);
@@ -928,7 +928,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15hF] - l.%d\n", printf("[%-+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0hF] - l.%d\n", printf("[%-+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5hF] - l.%d\n", printf("[%-+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20hF] - l.%d\n", printf("[%-+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15hF] - l.%d\n", printf("[%-+ 15.15hF]", s) - 2, __LINE__);
 		// -' 'h
 		printf(" - %d - [%%- hF] - l.%d\n", printf("[%- hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%- 3hF] - l.%d\n", printf("[%- 3hF]", s) - 2, __LINE__);
@@ -939,7 +939,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15hF] - l.%d\n", printf("[%- 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0hF] - l.%d\n", printf("[%- 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5hF] - l.%d\n", printf("[%- 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20hF] - l.%d\n", printf("[%- 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15hF] - l.%d\n", printf("[%- 15.15hF]", s) - 2, __LINE__);
 		// +' 'h
 		printf(" - %d - [%%+ hF] - l.%d\n", printf("[%+ hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%+ 3hF] - l.%d\n", printf("[%+ 3hF]", s) - 2, __LINE__);
@@ -950,7 +950,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15hF] - l.%d\n", printf("[%+ 15hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0hF] - l.%d\n", printf("[%+ 15.0hF]", s) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5hF] - l.%d\n", printf("[%+ 15.5hF]", s) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20hF] - l.%d\n", printf("[%+ 15.20hF]", s) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15hF] - l.%d\n", printf("[%+ 15.15hF]", s) - 2, __LINE__);
 
 		// #0hh
 		printf(" - %d - [%%#0hhF] - l.%d\n", printf("[%#0hhF]", c) - 2, __LINE__);
@@ -962,7 +962,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015hhF] - l.%d\n", printf("[%#015hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#015.0hhF] - l.%d\n", printf("[%#015.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#015.5hhF] - l.%d\n", printf("[%#015.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#015.20hhF] - l.%d\n", printf("[%#015.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#015.15hhF] - l.%d\n", printf("[%#015.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-hhF] - l.%d\n", printf("[%#0-hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-3hhF] - l.%d\n", printf("[%#0-3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0hhF] - l.%d\n", printf("[%#0-3.0hhF]", c) - 2, __LINE__);
@@ -972,7 +972,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15hhF] - l.%d\n", printf("[%#0-15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0hhF] - l.%d\n", printf("[%#0-15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5hhF] - l.%d\n", printf("[%#0-15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20hhF] - l.%d\n", printf("[%#0-15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15hhF] - l.%d\n", printf("[%#0-15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+hhF] - l.%d\n", printf("[%#0-+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3hhF] - l.%d\n", printf("[%#0-+3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0hhF] - l.%d\n", printf("[%#0-+3.0hhF]", c) - 2, __LINE__);
@@ -982,7 +982,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15hhF] - l.%d\n", printf("[%#0-+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0hhF] - l.%d\n", printf("[%#0-+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5hhF] - l.%d\n", printf("[%#0-+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20hhF] - l.%d\n", printf("[%#0-+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15hhF] - l.%d\n", printf("[%#0-+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0- hhF] - l.%d\n", printf("[%#0- hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3hhF] - l.%d\n", printf("[%#0- 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0hhF] - l.%d\n", printf("[%#0- 3.0hhF]", c) - 2, __LINE__);
@@ -992,7 +992,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15hhF] - l.%d\n", printf("[%#0- 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0hhF] - l.%d\n", printf("[%#0- 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5hhF] - l.%d\n", printf("[%#0- 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20hhF] - l.%d\n", printf("[%#0- 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15hhF] - l.%d\n", printf("[%#0- 15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ hhF] - l.%d\n", printf("[%#0-+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3hhF] - l.%d\n", printf("[%#0-+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0hhF] - l.%d\n", printf("[%#0-+ 3.0hhF]", c) - 2, __LINE__);
@@ -1002,7 +1002,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15hhF] - l.%d\n", printf("[%#0-+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0hhF] - l.%d\n", printf("[%#0-+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5hhF] - l.%d\n", printf("[%#0-+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20hhF] - l.%d\n", printf("[%#0-+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15hhF] - l.%d\n", printf("[%#0-+ 15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+hhF] - l.%d\n", printf("[%#0+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+3hhF] - l.%d\n", printf("[%#0+3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0hhF] - l.%d\n", printf("[%#0+3.0hhF]", c) - 2, __LINE__);
@@ -1012,7 +1012,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15hhF] - l.%d\n", printf("[%#0+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0hhF] - l.%d\n", printf("[%#0+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5hhF] - l.%d\n", printf("[%#0+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20hhF] - l.%d\n", printf("[%#0+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15hhF] - l.%d\n", printf("[%#0+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+ hhF] - l.%d\n", printf("[%#0+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3hhF] - l.%d\n", printf("[%#0+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0hhF] - l.%d\n", printf("[%#0+ 3.0hhF]", c) - 2, __LINE__);
@@ -1022,7 +1022,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15hhF] - l.%d\n", printf("[%#0+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0hhF] - l.%d\n", printf("[%#0+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5hhF] - l.%d\n", printf("[%#0+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20hhF] - l.%d\n", printf("[%#0+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15hhF] - l.%d\n", printf("[%#0+ 15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0 hhF] - l.%d\n", printf("[%#0 hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0 3hhF] - l.%d\n", printf("[%#0 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0hhF] - l.%d\n", printf("[%#0 3.0hhF]", c) - 2, __LINE__);
@@ -1032,7 +1032,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15hhF] - l.%d\n", printf("[%#0 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0hhF] - l.%d\n", printf("[%#0 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5hhF] - l.%d\n", printf("[%#0 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20hhF] - l.%d\n", printf("[%#0 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15hhF] - l.%d\n", printf("[%#0 15.15hhF]", c) - 2, __LINE__);
 		// #-hh
 		printf(" - %d - [%%#-hhF] - l.%d\n", printf("[%#-hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-3hhF] - l.%d\n", printf("[%#-3hhF]", c) - 2, __LINE__);
@@ -1043,7 +1043,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15hhF] - l.%d\n", printf("[%#-15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0hhF] - l.%d\n", printf("[%#-15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5hhF] - l.%d\n", printf("[%#-15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20hhF] - l.%d\n", printf("[%#-15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15hhF] - l.%d\n", printf("[%#-15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+hhF] - l.%d\n", printf("[%#-+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+3hhF] - l.%d\n", printf("[%#-+3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0hhF] - l.%d\n", printf("[%#-+3.0hhF]", c) - 2, __LINE__);
@@ -1053,7 +1053,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15hhF] - l.%d\n", printf("[%#-+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0hhF] - l.%d\n", printf("[%#-+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5hhF] - l.%d\n", printf("[%#-+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20hhF] - l.%d\n", printf("[%#-+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15hhF] - l.%d\n", printf("[%#-+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#- hhF] - l.%d\n", printf("[%#- hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#- 3hhF] - l.%d\n", printf("[%#- 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0hhF] - l.%d\n", printf("[%#- 3.0hhF]", c) - 2, __LINE__);
@@ -1063,7 +1063,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15hhF] - l.%d\n", printf("[%#- 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0hhF] - l.%d\n", printf("[%#- 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5hhF] - l.%d\n", printf("[%#- 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20hhF] - l.%d\n", printf("[%#- 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15hhF] - l.%d\n", printf("[%#- 15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+ hhF] - l.%d\n", printf("[%#-+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3hhF] - l.%d\n", printf("[%#-+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0hhF] - l.%d\n", printf("[%#-+ 3.0hhF]", c) - 2, __LINE__);
@@ -1073,7 +1073,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15hhF] - l.%d\n", printf("[%#-+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0hhF] - l.%d\n", printf("[%#-+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5hhF] - l.%d\n", printf("[%#-+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20hhF] - l.%d\n", printf("[%#-+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15hhF] - l.%d\n", printf("[%#-+ 15.15hhF]", c) - 2, __LINE__);
 		// +hh
 		printf(" - %d - [%%#+hhF] - l.%d\n", printf("[%#+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+3hhF] - l.%d\n", printf("[%#+3hhF]", c) - 2, __LINE__);
@@ -1084,7 +1084,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15hhF] - l.%d\n", printf("[%#+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0hhF] - l.%d\n", printf("[%#+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5hhF] - l.%d\n", printf("[%#+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20hhF] - l.%d\n", printf("[%#+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15hhF] - l.%d\n", printf("[%#+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+ hhF] - l.%d\n", printf("[%#+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3hhF] - l.%d\n", printf("[%#+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0hhF] - l.%d\n", printf("[%#+ 3.0hhF]", c) - 2, __LINE__);
@@ -1094,7 +1094,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15hhF] - l.%d\n", printf("[%#+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0hhF] - l.%d\n", printf("[%#+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5hhF] - l.%d\n", printf("[%#+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20hhF] - l.%d\n", printf("[%#+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15hhF] - l.%d\n", printf("[%#+ 15.15hhF]", c) - 2, __LINE__);
 		// #' 'hh
 		printf(" - %d - [%%# hhF] - l.%d\n", printf("[%# hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%# 3hhF] - l.%d\n", printf("[%# 3hhF]", c) - 2, __LINE__);
@@ -1105,7 +1105,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15hhF] - l.%d\n", printf("[%# 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0hhF] - l.%d\n", printf("[%# 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5hhF] - l.%d\n", printf("[%# 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20hhF] - l.%d\n", printf("[%# 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15hhF] - l.%d\n", printf("[%# 15.15hhF]", c) - 2, __LINE__);
 		// 0-hh
 		printf(" - %d - [%%0-hhF] - l.%d\n", printf("[%0-hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-3hhF] - l.%d\n", printf("[%0-3hhF]", c) - 2, __LINE__);
@@ -1116,7 +1116,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15hhF] - l.%d\n", printf("[%0-15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0hhF] - l.%d\n", printf("[%0-15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5hhF] - l.%d\n", printf("[%0-15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20hhF] - l.%d\n", printf("[%0-15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15hhF] - l.%d\n", printf("[%0-15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+hhF] - l.%d\n", printf("[%0-+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+3hhF] - l.%d\n", printf("[%0-+3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0hhF] - l.%d\n", printf("[%0-+3.0hhF]", c) - 2, __LINE__);
@@ -1126,7 +1126,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15hhF] - l.%d\n", printf("[%0-+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0hhF] - l.%d\n", printf("[%0-+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5hhF] - l.%d\n", printf("[%0-+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20hhF] - l.%d\n", printf("[%0-+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15hhF] - l.%d\n", printf("[%0-+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+ hhF] - l.%d\n", printf("[%0-+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3hhF] - l.%d\n", printf("[%0-+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0hhF] - l.%d\n", printf("[%0-+ 3.0hhF]", c) - 2, __LINE__);
@@ -1136,7 +1136,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15hhF] - l.%d\n", printf("[%0-+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0hhF] - l.%d\n", printf("[%0-+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5hhF] - l.%d\n", printf("[%0-+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20hhF] - l.%d\n", printf("[%0-+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15hhF] - l.%d\n", printf("[%0-+ 15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0- hhF] - l.%d\n", printf("[%0- hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0- 3hhF] - l.%d\n", printf("[%0- 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0hhF] - l.%d\n", printf("[%0- 3.0hhF]", c) - 2, __LINE__);
@@ -1146,7 +1146,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15hhF] - l.%d\n", printf("[%0- 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0hhF] - l.%d\n", printf("[%0- 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5hhF] - l.%d\n", printf("[%0- 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20hhF] - l.%d\n", printf("[%0- 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15hhF] - l.%d\n", printf("[%0- 15.15hhF]", c) - 2, __LINE__);
 		// 0+hh
 		printf(" - %d - [%%0+hhF] - l.%d\n", printf("[%0+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+3hhF] - l.%d\n", printf("[%0+3hhF]", c) - 2, __LINE__);
@@ -1157,7 +1157,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15hhF] - l.%d\n", printf("[%0+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0hhF] - l.%d\n", printf("[%0+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5hhF] - l.%d\n", printf("[%0+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20hhF] - l.%d\n", printf("[%0+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15hhF] - l.%d\n", printf("[%0+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+ hhF] - l.%d\n", printf("[%0+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3hhF] - l.%d\n", printf("[%0+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0hhF] - l.%d\n", printf("[%0+ 3.0hhF]", c) - 2, __LINE__);
@@ -1167,7 +1167,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15hhF] - l.%d\n", printf("[%0+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0hhF] - l.%d\n", printf("[%0+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5hhF] - l.%d\n", printf("[%0+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20hhF] - l.%d\n", printf("[%0+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15hhF] - l.%d\n", printf("[%0+ 15.15hhF]", c) - 2, __LINE__);
 		// 0' 'hh
 		printf(" - %d - [%%0 hhF] - l.%d\n", printf("[%0 hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0 3hhF] - l.%d\n", printf("[%0 3hhF]", c) - 2, __LINE__);
@@ -1178,7 +1178,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15hhF] - l.%d\n", printf("[%0 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0hhF] - l.%d\n", printf("[%0 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5hhF] - l.%d\n", printf("[%0 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20hhF] - l.%d\n", printf("[%0 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15hhF] - l.%d\n", printf("[%0 15.15hhF]", c) - 2, __LINE__);
 		// -+hh
 		printf(" - %d - [%%-+hhF] - l.%d\n", printf("[%-+hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+3hhF] - l.%d\n", printf("[%-+3hhF]", c) - 2, __LINE__);
@@ -1189,7 +1189,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15hhF] - l.%d\n", printf("[%-+15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0hhF] - l.%d\n", printf("[%-+15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5hhF] - l.%d\n", printf("[%-+15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20hhF] - l.%d\n", printf("[%-+15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15hhF] - l.%d\n", printf("[%-+15.15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+ hhF] - l.%d\n", printf("[%-+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3hhF] - l.%d\n", printf("[%-+ 3hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0hhF] - l.%d\n", printf("[%-+ 3.0hhF]", c) - 2, __LINE__);
@@ -1199,7 +1199,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15hhF] - l.%d\n", printf("[%-+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0hhF] - l.%d\n", printf("[%-+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5hhF] - l.%d\n", printf("[%-+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20hhF] - l.%d\n", printf("[%-+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15hhF] - l.%d\n", printf("[%-+ 15.15hhF]", c) - 2, __LINE__);
 		// -' 'hh
 		printf(" - %d - [%%- hhF] - l.%d\n", printf("[%- hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%- 3hhF] - l.%d\n", printf("[%- 3hhF]", c) - 2, __LINE__);
@@ -1210,7 +1210,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15hhF] - l.%d\n", printf("[%- 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0hhF] - l.%d\n", printf("[%- 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5hhF] - l.%d\n", printf("[%- 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20hhF] - l.%d\n", printf("[%- 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15hhF] - l.%d\n", printf("[%- 15.15hhF]", c) - 2, __LINE__);
 		// +' 'hh
 		printf(" - %d - [%%+ hhF] - l.%d\n", printf("[%+ hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%+ 3hhF] - l.%d\n", printf("[%+ 3hhF]", c) - 2, __LINE__);
@@ -1221,7 +1221,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15hhF] - l.%d\n", printf("[%+ 15hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0hhF] - l.%d\n", printf("[%+ 15.0hhF]", c) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5hhF] - l.%d\n", printf("[%+ 15.5hhF]", c) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20hhF] - l.%d\n", printf("[%+ 15.20hhF]", c) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15hhF] - l.%d\n", printf("[%+ 15.15hhF]", c) - 2, __LINE__);
 
 		// #0l
 		printf(" - %d - [%%#0lF] - l.%d\n", printf("[%#0lF]", l) - 2, __LINE__);
@@ -1233,7 +1233,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015lF] - l.%d\n", printf("[%#015lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#015.0lF] - l.%d\n", printf("[%#015.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#015.5lF] - l.%d\n", printf("[%#015.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#015.20lF] - l.%d\n", printf("[%#015.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#015.15lF] - l.%d\n", printf("[%#015.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-lF] - l.%d\n", printf("[%#0-lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-3lF] - l.%d\n", printf("[%#0-3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0lF] - l.%d\n", printf("[%#0-3.0lF]", l) - 2, __LINE__);
@@ -1243,7 +1243,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15lF] - l.%d\n", printf("[%#0-15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0lF] - l.%d\n", printf("[%#0-15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5lF] - l.%d\n", printf("[%#0-15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20lF] - l.%d\n", printf("[%#0-15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15lF] - l.%d\n", printf("[%#0-15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+lF] - l.%d\n", printf("[%#0-+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3lF] - l.%d\n", printf("[%#0-+3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0lF] - l.%d\n", printf("[%#0-+3.0lF]", l) - 2, __LINE__);
@@ -1253,7 +1253,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15lF] - l.%d\n", printf("[%#0-+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0lF] - l.%d\n", printf("[%#0-+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5lF] - l.%d\n", printf("[%#0-+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20lF] - l.%d\n", printf("[%#0-+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15lF] - l.%d\n", printf("[%#0-+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0- lF] - l.%d\n", printf("[%#0- lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3lF] - l.%d\n", printf("[%#0- 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0lF] - l.%d\n", printf("[%#0- 3.0lF]", l) - 2, __LINE__);
@@ -1263,7 +1263,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15lF] - l.%d\n", printf("[%#0- 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0lF] - l.%d\n", printf("[%#0- 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5lF] - l.%d\n", printf("[%#0- 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20lF] - l.%d\n", printf("[%#0- 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15lF] - l.%d\n", printf("[%#0- 15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ lF] - l.%d\n", printf("[%#0-+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3lF] - l.%d\n", printf("[%#0-+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0lF] - l.%d\n", printf("[%#0-+ 3.0lF]", l) - 2, __LINE__);
@@ -1273,7 +1273,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15lF] - l.%d\n", printf("[%#0-+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0lF] - l.%d\n", printf("[%#0-+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5lF] - l.%d\n", printf("[%#0-+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20lF] - l.%d\n", printf("[%#0-+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15lF] - l.%d\n", printf("[%#0-+ 15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+lF] - l.%d\n", printf("[%#0+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+3lF] - l.%d\n", printf("[%#0+3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0lF] - l.%d\n", printf("[%#0+3.0lF]", l) - 2, __LINE__);
@@ -1283,7 +1283,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15lF] - l.%d\n", printf("[%#0+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0lF] - l.%d\n", printf("[%#0+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5lF] - l.%d\n", printf("[%#0+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20lF] - l.%d\n", printf("[%#0+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15lF] - l.%d\n", printf("[%#0+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+ lF] - l.%d\n", printf("[%#0+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3lF] - l.%d\n", printf("[%#0+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0lF] - l.%d\n", printf("[%#0+ 3.0lF]", l) - 2, __LINE__);
@@ -1293,7 +1293,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15lF] - l.%d\n", printf("[%#0+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0lF] - l.%d\n", printf("[%#0+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5lF] - l.%d\n", printf("[%#0+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20lF] - l.%d\n", printf("[%#0+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15lF] - l.%d\n", printf("[%#0+ 15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0 lF] - l.%d\n", printf("[%#0 lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0 3lF] - l.%d\n", printf("[%#0 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0lF] - l.%d\n", printf("[%#0 3.0lF]", l) - 2, __LINE__);
@@ -1303,7 +1303,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15lF] - l.%d\n", printf("[%#0 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0lF] - l.%d\n", printf("[%#0 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5lF] - l.%d\n", printf("[%#0 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20lF] - l.%d\n", printf("[%#0 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15lF] - l.%d\n", printf("[%#0 15.15lF]", l) - 2, __LINE__);
 		// #-l
 		printf(" - %d - [%%#-lF] - l.%d\n", printf("[%#-lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-3lF] - l.%d\n", printf("[%#-3lF]", l) - 2, __LINE__);
@@ -1314,7 +1314,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15lF] - l.%d\n", printf("[%#-15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0lF] - l.%d\n", printf("[%#-15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5lF] - l.%d\n", printf("[%#-15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20lF] - l.%d\n", printf("[%#-15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15lF] - l.%d\n", printf("[%#-15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+lF] - l.%d\n", printf("[%#-+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+3lF] - l.%d\n", printf("[%#-+3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0lF] - l.%d\n", printf("[%#-+3.0lF]", l) - 2, __LINE__);
@@ -1324,7 +1324,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15lF] - l.%d\n", printf("[%#-+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0lF] - l.%d\n", printf("[%#-+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5lF] - l.%d\n", printf("[%#-+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20lF] - l.%d\n", printf("[%#-+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15lF] - l.%d\n", printf("[%#-+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#- lF] - l.%d\n", printf("[%#- lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#- 3lF] - l.%d\n", printf("[%#- 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0lF] - l.%d\n", printf("[%#- 3.0lF]", l) - 2, __LINE__);
@@ -1334,7 +1334,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15lF] - l.%d\n", printf("[%#- 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0lF] - l.%d\n", printf("[%#- 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5lF] - l.%d\n", printf("[%#- 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20lF] - l.%d\n", printf("[%#- 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15lF] - l.%d\n", printf("[%#- 15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+ lF] - l.%d\n", printf("[%#-+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3lF] - l.%d\n", printf("[%#-+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0lF] - l.%d\n", printf("[%#-+ 3.0lF]", l) - 2, __LINE__);
@@ -1344,7 +1344,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15lF] - l.%d\n", printf("[%#-+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0lF] - l.%d\n", printf("[%#-+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5lF] - l.%d\n", printf("[%#-+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20lF] - l.%d\n", printf("[%#-+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15lF] - l.%d\n", printf("[%#-+ 15.15lF]", l) - 2, __LINE__);
 		// +l
 		printf(" - %d - [%%#+lF] - l.%d\n", printf("[%#+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+3lF] - l.%d\n", printf("[%#+3lF]", l) - 2, __LINE__);
@@ -1355,7 +1355,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15lF] - l.%d\n", printf("[%#+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0lF] - l.%d\n", printf("[%#+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5lF] - l.%d\n", printf("[%#+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20lF] - l.%d\n", printf("[%#+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15lF] - l.%d\n", printf("[%#+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+ lF] - l.%d\n", printf("[%#+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3lF] - l.%d\n", printf("[%#+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0lF] - l.%d\n", printf("[%#+ 3.0lF]", l) - 2, __LINE__);
@@ -1365,7 +1365,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15lF] - l.%d\n", printf("[%#+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0lF] - l.%d\n", printf("[%#+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5lF] - l.%d\n", printf("[%#+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20lF] - l.%d\n", printf("[%#+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15lF] - l.%d\n", printf("[%#+ 15.15lF]", l) - 2, __LINE__);
 		// #' 'l
 		printf(" - %d - [%%# lF] - l.%d\n", printf("[%# lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%# 3lF] - l.%d\n", printf("[%# 3lF]", l) - 2, __LINE__);
@@ -1376,7 +1376,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15lF] - l.%d\n", printf("[%# 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0lF] - l.%d\n", printf("[%# 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5lF] - l.%d\n", printf("[%# 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20lF] - l.%d\n", printf("[%# 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15lF] - l.%d\n", printf("[%# 15.15lF]", l) - 2, __LINE__);
 		// 0-l
 		printf(" - %d - [%%0-lF] - l.%d\n", printf("[%0-lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-3lF] - l.%d\n", printf("[%0-3lF]", l) - 2, __LINE__);
@@ -1387,7 +1387,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15lF] - l.%d\n", printf("[%0-15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0lF] - l.%d\n", printf("[%0-15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5lF] - l.%d\n", printf("[%0-15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20lF] - l.%d\n", printf("[%0-15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15lF] - l.%d\n", printf("[%0-15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+lF] - l.%d\n", printf("[%0-+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+3lF] - l.%d\n", printf("[%0-+3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0lF] - l.%d\n", printf("[%0-+3.0lF]", l) - 2, __LINE__);
@@ -1397,7 +1397,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15lF] - l.%d\n", printf("[%0-+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0lF] - l.%d\n", printf("[%0-+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5lF] - l.%d\n", printf("[%0-+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20lF] - l.%d\n", printf("[%0-+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15lF] - l.%d\n", printf("[%0-+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+ lF] - l.%d\n", printf("[%0-+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3lF] - l.%d\n", printf("[%0-+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0lF] - l.%d\n", printf("[%0-+ 3.0lF]", l) - 2, __LINE__);
@@ -1407,7 +1407,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15lF] - l.%d\n", printf("[%0-+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0lF] - l.%d\n", printf("[%0-+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5lF] - l.%d\n", printf("[%0-+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20lF] - l.%d\n", printf("[%0-+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15lF] - l.%d\n", printf("[%0-+ 15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0- lF] - l.%d\n", printf("[%0- lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0- 3lF] - l.%d\n", printf("[%0- 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0lF] - l.%d\n", printf("[%0- 3.0lF]", l) - 2, __LINE__);
@@ -1417,7 +1417,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15lF] - l.%d\n", printf("[%0- 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0lF] - l.%d\n", printf("[%0- 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5lF] - l.%d\n", printf("[%0- 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20lF] - l.%d\n", printf("[%0- 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15lF] - l.%d\n", printf("[%0- 15.15lF]", l) - 2, __LINE__);
 		// 0+l
 		printf(" - %d - [%%0+lF] - l.%d\n", printf("[%0+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+3lF] - l.%d\n", printf("[%0+3lF]", l) - 2, __LINE__);
@@ -1428,7 +1428,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15lF] - l.%d\n", printf("[%0+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0lF] - l.%d\n", printf("[%0+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5lF] - l.%d\n", printf("[%0+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20lF] - l.%d\n", printf("[%0+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15lF] - l.%d\n", printf("[%0+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+ lF] - l.%d\n", printf("[%0+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3lF] - l.%d\n", printf("[%0+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0lF] - l.%d\n", printf("[%0+ 3.0lF]", l) - 2, __LINE__);
@@ -1438,7 +1438,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15lF] - l.%d\n", printf("[%0+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0lF] - l.%d\n", printf("[%0+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5lF] - l.%d\n", printf("[%0+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20lF] - l.%d\n", printf("[%0+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15lF] - l.%d\n", printf("[%0+ 15.15lF]", l) - 2, __LINE__);
 		// 0' 'l
 		printf(" - %d - [%%0 lF] - l.%d\n", printf("[%0 lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0 3lF] - l.%d\n", printf("[%0 3lF]", l) - 2, __LINE__);
@@ -1449,7 +1449,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15lF] - l.%d\n", printf("[%0 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0lF] - l.%d\n", printf("[%0 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5lF] - l.%d\n", printf("[%0 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20lF] - l.%d\n", printf("[%0 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15lF] - l.%d\n", printf("[%0 15.15lF]", l) - 2, __LINE__);
 		// -+l
 		printf(" - %d - [%%-+lF] - l.%d\n", printf("[%-+lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+3lF] - l.%d\n", printf("[%-+3lF]", l) - 2, __LINE__);
@@ -1460,7 +1460,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15lF] - l.%d\n", printf("[%-+15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0lF] - l.%d\n", printf("[%-+15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5lF] - l.%d\n", printf("[%-+15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20lF] - l.%d\n", printf("[%-+15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15lF] - l.%d\n", printf("[%-+15.15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+ lF] - l.%d\n", printf("[%-+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3lF] - l.%d\n", printf("[%-+ 3lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0lF] - l.%d\n", printf("[%-+ 3.0lF]", l) - 2, __LINE__);
@@ -1470,7 +1470,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15lF] - l.%d\n", printf("[%-+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0lF] - l.%d\n", printf("[%-+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5lF] - l.%d\n", printf("[%-+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20lF] - l.%d\n", printf("[%-+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15lF] - l.%d\n", printf("[%-+ 15.15lF]", l) - 2, __LINE__);
 		// -' 'l
 		printf(" - %d - [%%- lF] - l.%d\n", printf("[%- lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%- 3lF] - l.%d\n", printf("[%- 3lF]", l) - 2, __LINE__);
@@ -1481,7 +1481,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15lF] - l.%d\n", printf("[%- 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0lF] - l.%d\n", printf("[%- 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5lF] - l.%d\n", printf("[%- 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20lF] - l.%d\n", printf("[%- 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15lF] - l.%d\n", printf("[%- 15.15lF]", l) - 2, __LINE__);
 		// +' 'l
 		printf(" - %d - [%%+ lF] - l.%d\n", printf("[%+ lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%+ 3lF] - l.%d\n", printf("[%+ 3lF]", l) - 2, __LINE__);
@@ -1492,7 +1492,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15lF] - l.%d\n", printf("[%+ 15lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0lF] - l.%d\n", printf("[%+ 15.0lF]", l) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5lF] - l.%d\n", printf("[%+ 15.5lF]", l) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20lF] - l.%d\n", printf("[%+ 15.20lF]", l) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15lF] - l.%d\n", printf("[%+ 15.15lF]", l) - 2, __LINE__);
 
 		// #0ll
 		printf(" - %d - [%%#0llF] - l.%d\n", printf("[%#0llF]", ll) - 2, __LINE__);
@@ -1504,7 +1504,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015llF] - l.%d\n", printf("[%#015llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#015.0llF] - l.%d\n", printf("[%#015.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#015.5llF] - l.%d\n", printf("[%#015.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#015.20llF] - l.%d\n", printf("[%#015.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#015.15llF] - l.%d\n", printf("[%#015.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-llF] - l.%d\n", printf("[%#0-llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-3llF] - l.%d\n", printf("[%#0-3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0llF] - l.%d\n", printf("[%#0-3.0llF]", ll) - 2, __LINE__);
@@ -1514,7 +1514,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15llF] - l.%d\n", printf("[%#0-15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0llF] - l.%d\n", printf("[%#0-15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5llF] - l.%d\n", printf("[%#0-15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20llF] - l.%d\n", printf("[%#0-15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15llF] - l.%d\n", printf("[%#0-15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+llF] - l.%d\n", printf("[%#0-+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3llF] - l.%d\n", printf("[%#0-+3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0llF] - l.%d\n", printf("[%#0-+3.0llF]", ll) - 2, __LINE__);
@@ -1524,7 +1524,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15llF] - l.%d\n", printf("[%#0-+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0llF] - l.%d\n", printf("[%#0-+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5llF] - l.%d\n", printf("[%#0-+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20llF] - l.%d\n", printf("[%#0-+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15llF] - l.%d\n", printf("[%#0-+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0- llF] - l.%d\n", printf("[%#0- llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3llF] - l.%d\n", printf("[%#0- 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0llF] - l.%d\n", printf("[%#0- 3.0llF]", ll) - 2, __LINE__);
@@ -1534,7 +1534,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15llF] - l.%d\n", printf("[%#0- 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0llF] - l.%d\n", printf("[%#0- 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5llF] - l.%d\n", printf("[%#0- 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20llF] - l.%d\n", printf("[%#0- 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15llF] - l.%d\n", printf("[%#0- 15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ llF] - l.%d\n", printf("[%#0-+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3llF] - l.%d\n", printf("[%#0-+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0llF] - l.%d\n", printf("[%#0-+ 3.0llF]", ll) - 2, __LINE__);
@@ -1544,7 +1544,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15llF] - l.%d\n", printf("[%#0-+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0llF] - l.%d\n", printf("[%#0-+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5llF] - l.%d\n", printf("[%#0-+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20llF] - l.%d\n", printf("[%#0-+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15llF] - l.%d\n", printf("[%#0-+ 15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+llF] - l.%d\n", printf("[%#0+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+3llF] - l.%d\n", printf("[%#0+3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0llF] - l.%d\n", printf("[%#0+3.0llF]", ll) - 2, __LINE__);
@@ -1554,7 +1554,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15llF] - l.%d\n", printf("[%#0+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0llF] - l.%d\n", printf("[%#0+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5llF] - l.%d\n", printf("[%#0+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20llF] - l.%d\n", printf("[%#0+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15llF] - l.%d\n", printf("[%#0+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+ llF] - l.%d\n", printf("[%#0+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3llF] - l.%d\n", printf("[%#0+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0llF] - l.%d\n", printf("[%#0+ 3.0llF]", ll) - 2, __LINE__);
@@ -1564,7 +1564,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15llF] - l.%d\n", printf("[%#0+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0llF] - l.%d\n", printf("[%#0+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5llF] - l.%d\n", printf("[%#0+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20llF] - l.%d\n", printf("[%#0+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15llF] - l.%d\n", printf("[%#0+ 15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0 llF] - l.%d\n", printf("[%#0 llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0 3llF] - l.%d\n", printf("[%#0 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0llF] - l.%d\n", printf("[%#0 3.0llF]", ll) - 2, __LINE__);
@@ -1574,7 +1574,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15llF] - l.%d\n", printf("[%#0 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0llF] - l.%d\n", printf("[%#0 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5llF] - l.%d\n", printf("[%#0 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20llF] - l.%d\n", printf("[%#0 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15llF] - l.%d\n", printf("[%#0 15.15llF]", ll) - 2, __LINE__);
 		// #-ll
 		printf(" - %d - [%%#-llF] - l.%d\n", printf("[%#-llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-3llF] - l.%d\n", printf("[%#-3llF]", ll) - 2, __LINE__);
@@ -1585,7 +1585,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15llF] - l.%d\n", printf("[%#-15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0llF] - l.%d\n", printf("[%#-15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5llF] - l.%d\n", printf("[%#-15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20llF] - l.%d\n", printf("[%#-15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15llF] - l.%d\n", printf("[%#-15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+llF] - l.%d\n", printf("[%#-+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+3llF] - l.%d\n", printf("[%#-+3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0llF] - l.%d\n", printf("[%#-+3.0llF]", ll) - 2, __LINE__);
@@ -1595,7 +1595,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15llF] - l.%d\n", printf("[%#-+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0llF] - l.%d\n", printf("[%#-+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5llF] - l.%d\n", printf("[%#-+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20llF] - l.%d\n", printf("[%#-+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15llF] - l.%d\n", printf("[%#-+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#- llF] - l.%d\n", printf("[%#- llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#- 3llF] - l.%d\n", printf("[%#- 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0llF] - l.%d\n", printf("[%#- 3.0llF]", ll) - 2, __LINE__);
@@ -1605,7 +1605,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15llF] - l.%d\n", printf("[%#- 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0llF] - l.%d\n", printf("[%#- 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5llF] - l.%d\n", printf("[%#- 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20llF] - l.%d\n", printf("[%#- 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15llF] - l.%d\n", printf("[%#- 15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+ llF] - l.%d\n", printf("[%#-+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3llF] - l.%d\n", printf("[%#-+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0llF] - l.%d\n", printf("[%#-+ 3.0llF]", ll) - 2, __LINE__);
@@ -1615,7 +1615,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15llF] - l.%d\n", printf("[%#-+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0llF] - l.%d\n", printf("[%#-+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5llF] - l.%d\n", printf("[%#-+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20llF] - l.%d\n", printf("[%#-+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15llF] - l.%d\n", printf("[%#-+ 15.15llF]", ll) - 2, __LINE__);
 		// +ll
 		printf(" - %d - [%%#+llF] - l.%d\n", printf("[%#+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+3llF] - l.%d\n", printf("[%#+3llF]", ll) - 2, __LINE__);
@@ -1626,7 +1626,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15llF] - l.%d\n", printf("[%#+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0llF] - l.%d\n", printf("[%#+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5llF] - l.%d\n", printf("[%#+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20llF] - l.%d\n", printf("[%#+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15llF] - l.%d\n", printf("[%#+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+ llF] - l.%d\n", printf("[%#+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3llF] - l.%d\n", printf("[%#+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0llF] - l.%d\n", printf("[%#+ 3.0llF]", ll) - 2, __LINE__);
@@ -1636,7 +1636,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15llF] - l.%d\n", printf("[%#+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0llF] - l.%d\n", printf("[%#+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5llF] - l.%d\n", printf("[%#+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20llF] - l.%d\n", printf("[%#+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15llF] - l.%d\n", printf("[%#+ 15.15llF]", ll) - 2, __LINE__);
 		// #' 'll
 		printf(" - %d - [%%# llF] - l.%d\n", printf("[%# llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%# 3llF] - l.%d\n", printf("[%# 3llF]", ll) - 2, __LINE__);
@@ -1647,7 +1647,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15llF] - l.%d\n", printf("[%# 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0llF] - l.%d\n", printf("[%# 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5llF] - l.%d\n", printf("[%# 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20llF] - l.%d\n", printf("[%# 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15llF] - l.%d\n", printf("[%# 15.15llF]", ll) - 2, __LINE__);
 		// 0-ll
 		printf(" - %d - [%%0-llF] - l.%d\n", printf("[%0-llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-3llF] - l.%d\n", printf("[%0-3llF]", ll) - 2, __LINE__);
@@ -1658,7 +1658,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15llF] - l.%d\n", printf("[%0-15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0llF] - l.%d\n", printf("[%0-15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5llF] - l.%d\n", printf("[%0-15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20llF] - l.%d\n", printf("[%0-15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15llF] - l.%d\n", printf("[%0-15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+llF] - l.%d\n", printf("[%0-+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+3llF] - l.%d\n", printf("[%0-+3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0llF] - l.%d\n", printf("[%0-+3.0llF]", ll) - 2, __LINE__);
@@ -1668,7 +1668,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15llF] - l.%d\n", printf("[%0-+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0llF] - l.%d\n", printf("[%0-+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5llF] - l.%d\n", printf("[%0-+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20llF] - l.%d\n", printf("[%0-+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15llF] - l.%d\n", printf("[%0-+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+ llF] - l.%d\n", printf("[%0-+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3llF] - l.%d\n", printf("[%0-+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0llF] - l.%d\n", printf("[%0-+ 3.0llF]", ll) - 2, __LINE__);
@@ -1678,7 +1678,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15llF] - l.%d\n", printf("[%0-+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0llF] - l.%d\n", printf("[%0-+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5llF] - l.%d\n", printf("[%0-+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20llF] - l.%d\n", printf("[%0-+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15llF] - l.%d\n", printf("[%0-+ 15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0- llF] - l.%d\n", printf("[%0- llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0- 3llF] - l.%d\n", printf("[%0- 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0llF] - l.%d\n", printf("[%0- 3.0llF]", ll) - 2, __LINE__);
@@ -1688,7 +1688,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15llF] - l.%d\n", printf("[%0- 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0llF] - l.%d\n", printf("[%0- 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5llF] - l.%d\n", printf("[%0- 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20llF] - l.%d\n", printf("[%0- 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15llF] - l.%d\n", printf("[%0- 15.15llF]", ll) - 2, __LINE__);
 		// 0+ll
 		printf(" - %d - [%%0+llF] - l.%d\n", printf("[%0+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+3llF] - l.%d\n", printf("[%0+3llF]", ll) - 2, __LINE__);
@@ -1699,7 +1699,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15llF] - l.%d\n", printf("[%0+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0llF] - l.%d\n", printf("[%0+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5llF] - l.%d\n", printf("[%0+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20llF] - l.%d\n", printf("[%0+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15llF] - l.%d\n", printf("[%0+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+ llF] - l.%d\n", printf("[%0+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3llF] - l.%d\n", printf("[%0+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0llF] - l.%d\n", printf("[%0+ 3.0llF]", ll) - 2, __LINE__);
@@ -1709,7 +1709,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15llF] - l.%d\n", printf("[%0+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0llF] - l.%d\n", printf("[%0+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5llF] - l.%d\n", printf("[%0+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20llF] - l.%d\n", printf("[%0+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15llF] - l.%d\n", printf("[%0+ 15.15llF]", ll) - 2, __LINE__);
 		// 0' 'll
 		printf(" - %d - [%%0 llF] - l.%d\n", printf("[%0 llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0 3llF] - l.%d\n", printf("[%0 3llF]", ll) - 2, __LINE__);
@@ -1720,7 +1720,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15llF] - l.%d\n", printf("[%0 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0llF] - l.%d\n", printf("[%0 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5llF] - l.%d\n", printf("[%0 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20llF] - l.%d\n", printf("[%0 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15llF] - l.%d\n", printf("[%0 15.15llF]", ll) - 2, __LINE__);
 		// -+ll
 		printf(" - %d - [%%-+llF] - l.%d\n", printf("[%-+llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+3llF] - l.%d\n", printf("[%-+3llF]", ll) - 2, __LINE__);
@@ -1731,7 +1731,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15llF] - l.%d\n", printf("[%-+15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0llF] - l.%d\n", printf("[%-+15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5llF] - l.%d\n", printf("[%-+15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20llF] - l.%d\n", printf("[%-+15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15llF] - l.%d\n", printf("[%-+15.15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+ llF] - l.%d\n", printf("[%-+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3llF] - l.%d\n", printf("[%-+ 3llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0llF] - l.%d\n", printf("[%-+ 3.0llF]", ll) - 2, __LINE__);
@@ -1741,7 +1741,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15llF] - l.%d\n", printf("[%-+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0llF] - l.%d\n", printf("[%-+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5llF] - l.%d\n", printf("[%-+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20llF] - l.%d\n", printf("[%-+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15llF] - l.%d\n", printf("[%-+ 15.15llF]", ll) - 2, __LINE__);
 		// -' 'll
 		printf(" - %d - [%%- llF] - l.%d\n", printf("[%- llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%- 3llF] - l.%d\n", printf("[%- 3llF]", ll) - 2, __LINE__);
@@ -1752,7 +1752,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15llF] - l.%d\n", printf("[%- 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0llF] - l.%d\n", printf("[%- 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5llF] - l.%d\n", printf("[%- 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20llF] - l.%d\n", printf("[%- 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15llF] - l.%d\n", printf("[%- 15.15llF]", ll) - 2, __LINE__);
 		// +' 'll
 		printf(" - %d - [%%+ llF] - l.%d\n", printf("[%+ llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%+ 3llF] - l.%d\n", printf("[%+ 3llF]", ll) - 2, __LINE__);
@@ -1763,7 +1763,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15llF] - l.%d\n", printf("[%+ 15llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0llF] - l.%d\n", printf("[%+ 15.0llF]", ll) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5llF] - l.%d\n", printf("[%+ 15.5llF]", ll) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20llF] - l.%d\n", printf("[%+ 15.20llF]", ll) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15llF] - l.%d\n", printf("[%+ 15.15llF]", ll) - 2, __LINE__);
 
 		// #0j
 		printf(" - %d - [%%#0jF] - l.%d\n", printf("[%#0jF]", im) - 2, __LINE__);
@@ -1775,7 +1775,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015jF] - l.%d\n", printf("[%#015jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#015.0jF] - l.%d\n", printf("[%#015.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#015.5jF] - l.%d\n", printf("[%#015.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#015.20jF] - l.%d\n", printf("[%#015.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#015.15jF] - l.%d\n", printf("[%#015.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-jF] - l.%d\n", printf("[%#0-jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-3jF] - l.%d\n", printf("[%#0-3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0jF] - l.%d\n", printf("[%#0-3.0jF]", im) - 2, __LINE__);
@@ -1785,7 +1785,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15jF] - l.%d\n", printf("[%#0-15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0jF] - l.%d\n", printf("[%#0-15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5jF] - l.%d\n", printf("[%#0-15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20jF] - l.%d\n", printf("[%#0-15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15jF] - l.%d\n", printf("[%#0-15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+jF] - l.%d\n", printf("[%#0-+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3jF] - l.%d\n", printf("[%#0-+3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0jF] - l.%d\n", printf("[%#0-+3.0jF]", im) - 2, __LINE__);
@@ -1795,7 +1795,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15jF] - l.%d\n", printf("[%#0-+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0jF] - l.%d\n", printf("[%#0-+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5jF] - l.%d\n", printf("[%#0-+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20jF] - l.%d\n", printf("[%#0-+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15jF] - l.%d\n", printf("[%#0-+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0- jF] - l.%d\n", printf("[%#0- jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3jF] - l.%d\n", printf("[%#0- 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0jF] - l.%d\n", printf("[%#0- 3.0jF]", im) - 2, __LINE__);
@@ -1805,7 +1805,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15jF] - l.%d\n", printf("[%#0- 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0jF] - l.%d\n", printf("[%#0- 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5jF] - l.%d\n", printf("[%#0- 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20jF] - l.%d\n", printf("[%#0- 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15jF] - l.%d\n", printf("[%#0- 15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ jF] - l.%d\n", printf("[%#0-+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3jF] - l.%d\n", printf("[%#0-+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0jF] - l.%d\n", printf("[%#0-+ 3.0jF]", im) - 2, __LINE__);
@@ -1815,7 +1815,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15jF] - l.%d\n", printf("[%#0-+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0jF] - l.%d\n", printf("[%#0-+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5jF] - l.%d\n", printf("[%#0-+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20jF] - l.%d\n", printf("[%#0-+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15jF] - l.%d\n", printf("[%#0-+ 15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+jF] - l.%d\n", printf("[%#0+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+3jF] - l.%d\n", printf("[%#0+3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0jF] - l.%d\n", printf("[%#0+3.0jF]", im) - 2, __LINE__);
@@ -1825,7 +1825,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15jF] - l.%d\n", printf("[%#0+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0jF] - l.%d\n", printf("[%#0+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5jF] - l.%d\n", printf("[%#0+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20jF] - l.%d\n", printf("[%#0+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15jF] - l.%d\n", printf("[%#0+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+ jF] - l.%d\n", printf("[%#0+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3jF] - l.%d\n", printf("[%#0+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0jF] - l.%d\n", printf("[%#0+ 3.0jF]", im) - 2, __LINE__);
@@ -1835,7 +1835,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15jF] - l.%d\n", printf("[%#0+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0jF] - l.%d\n", printf("[%#0+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5jF] - l.%d\n", printf("[%#0+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20jF] - l.%d\n", printf("[%#0+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15jF] - l.%d\n", printf("[%#0+ 15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0 jF] - l.%d\n", printf("[%#0 jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0 3jF] - l.%d\n", printf("[%#0 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0jF] - l.%d\n", printf("[%#0 3.0jF]", im) - 2, __LINE__);
@@ -1845,7 +1845,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15jF] - l.%d\n", printf("[%#0 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0jF] - l.%d\n", printf("[%#0 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5jF] - l.%d\n", printf("[%#0 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20jF] - l.%d\n", printf("[%#0 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15jF] - l.%d\n", printf("[%#0 15.15jF]", im) - 2, __LINE__);
 		// #-j
 		printf(" - %d - [%%#-jF] - l.%d\n", printf("[%#-jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-3jF] - l.%d\n", printf("[%#-3jF]", im) - 2, __LINE__);
@@ -1856,7 +1856,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15jF] - l.%d\n", printf("[%#-15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0jF] - l.%d\n", printf("[%#-15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5jF] - l.%d\n", printf("[%#-15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20jF] - l.%d\n", printf("[%#-15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15jF] - l.%d\n", printf("[%#-15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+jF] - l.%d\n", printf("[%#-+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+3jF] - l.%d\n", printf("[%#-+3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0jF] - l.%d\n", printf("[%#-+3.0jF]", im) - 2, __LINE__);
@@ -1866,7 +1866,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15jF] - l.%d\n", printf("[%#-+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0jF] - l.%d\n", printf("[%#-+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5jF] - l.%d\n", printf("[%#-+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20jF] - l.%d\n", printf("[%#-+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15jF] - l.%d\n", printf("[%#-+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#- jF] - l.%d\n", printf("[%#- jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#- 3jF] - l.%d\n", printf("[%#- 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0jF] - l.%d\n", printf("[%#- 3.0jF]", im) - 2, __LINE__);
@@ -1876,7 +1876,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15jF] - l.%d\n", printf("[%#- 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0jF] - l.%d\n", printf("[%#- 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5jF] - l.%d\n", printf("[%#- 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20jF] - l.%d\n", printf("[%#- 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15jF] - l.%d\n", printf("[%#- 15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+ jF] - l.%d\n", printf("[%#-+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3jF] - l.%d\n", printf("[%#-+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0jF] - l.%d\n", printf("[%#-+ 3.0jF]", im) - 2, __LINE__);
@@ -1886,7 +1886,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15jF] - l.%d\n", printf("[%#-+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0jF] - l.%d\n", printf("[%#-+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5jF] - l.%d\n", printf("[%#-+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20jF] - l.%d\n", printf("[%#-+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15jF] - l.%d\n", printf("[%#-+ 15.15jF]", im) - 2, __LINE__);
 		// +j
 		printf(" - %d - [%%#+jF] - l.%d\n", printf("[%#+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+3jF] - l.%d\n", printf("[%#+3jF]", im) - 2, __LINE__);
@@ -1897,7 +1897,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15jF] - l.%d\n", printf("[%#+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0jF] - l.%d\n", printf("[%#+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5jF] - l.%d\n", printf("[%#+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20jF] - l.%d\n", printf("[%#+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15jF] - l.%d\n", printf("[%#+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+ jF] - l.%d\n", printf("[%#+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3jF] - l.%d\n", printf("[%#+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0jF] - l.%d\n", printf("[%#+ 3.0jF]", im) - 2, __LINE__);
@@ -1907,7 +1907,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15jF] - l.%d\n", printf("[%#+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0jF] - l.%d\n", printf("[%#+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5jF] - l.%d\n", printf("[%#+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20jF] - l.%d\n", printf("[%#+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15jF] - l.%d\n", printf("[%#+ 15.15jF]", im) - 2, __LINE__);
 		// #' 'j
 		printf(" - %d - [%%# jF] - l.%d\n", printf("[%# jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%# 3jF] - l.%d\n", printf("[%# 3jF]", im) - 2, __LINE__);
@@ -1918,7 +1918,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15jF] - l.%d\n", printf("[%# 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0jF] - l.%d\n", printf("[%# 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5jF] - l.%d\n", printf("[%# 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20jF] - l.%d\n", printf("[%# 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15jF] - l.%d\n", printf("[%# 15.15jF]", im) - 2, __LINE__);
 		// 0-j
 		printf(" - %d - [%%0-jF] - l.%d\n", printf("[%0-jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-3jF] - l.%d\n", printf("[%0-3jF]", im) - 2, __LINE__);
@@ -1929,7 +1929,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15jF] - l.%d\n", printf("[%0-15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0jF] - l.%d\n", printf("[%0-15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5jF] - l.%d\n", printf("[%0-15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20jF] - l.%d\n", printf("[%0-15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15jF] - l.%d\n", printf("[%0-15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+jF] - l.%d\n", printf("[%0-+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+3jF] - l.%d\n", printf("[%0-+3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0jF] - l.%d\n", printf("[%0-+3.0jF]", im) - 2, __LINE__);
@@ -1939,7 +1939,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15jF] - l.%d\n", printf("[%0-+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0jF] - l.%d\n", printf("[%0-+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5jF] - l.%d\n", printf("[%0-+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20jF] - l.%d\n", printf("[%0-+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15jF] - l.%d\n", printf("[%0-+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+ jF] - l.%d\n", printf("[%0-+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3jF] - l.%d\n", printf("[%0-+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0jF] - l.%d\n", printf("[%0-+ 3.0jF]", im) - 2, __LINE__);
@@ -1949,7 +1949,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15jF] - l.%d\n", printf("[%0-+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0jF] - l.%d\n", printf("[%0-+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5jF] - l.%d\n", printf("[%0-+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20jF] - l.%d\n", printf("[%0-+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15jF] - l.%d\n", printf("[%0-+ 15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0- jF] - l.%d\n", printf("[%0- jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0- 3jF] - l.%d\n", printf("[%0- 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0jF] - l.%d\n", printf("[%0- 3.0jF]", im) - 2, __LINE__);
@@ -1959,7 +1959,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15jF] - l.%d\n", printf("[%0- 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0jF] - l.%d\n", printf("[%0- 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5jF] - l.%d\n", printf("[%0- 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20jF] - l.%d\n", printf("[%0- 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15jF] - l.%d\n", printf("[%0- 15.15jF]", im) - 2, __LINE__);
 		// 0+j
 		printf(" - %d - [%%0+jF] - l.%d\n", printf("[%0+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+3jF] - l.%d\n", printf("[%0+3jF]", im) - 2, __LINE__);
@@ -1970,7 +1970,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15jF] - l.%d\n", printf("[%0+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0jF] - l.%d\n", printf("[%0+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5jF] - l.%d\n", printf("[%0+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20jF] - l.%d\n", printf("[%0+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15jF] - l.%d\n", printf("[%0+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+ jF] - l.%d\n", printf("[%0+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3jF] - l.%d\n", printf("[%0+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0jF] - l.%d\n", printf("[%0+ 3.0jF]", im) - 2, __LINE__);
@@ -1980,7 +1980,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15jF] - l.%d\n", printf("[%0+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0jF] - l.%d\n", printf("[%0+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5jF] - l.%d\n", printf("[%0+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20jF] - l.%d\n", printf("[%0+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15jF] - l.%d\n", printf("[%0+ 15.15jF]", im) - 2, __LINE__);
 		// 0' 'j
 		printf(" - %d - [%%0 jF] - l.%d\n", printf("[%0 jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0 3jF] - l.%d\n", printf("[%0 3jF]", im) - 2, __LINE__);
@@ -1991,7 +1991,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15jF] - l.%d\n", printf("[%0 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0jF] - l.%d\n", printf("[%0 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5jF] - l.%d\n", printf("[%0 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20jF] - l.%d\n", printf("[%0 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15jF] - l.%d\n", printf("[%0 15.15jF]", im) - 2, __LINE__);
 		// -+j
 		printf(" - %d - [%%-+jF] - l.%d\n", printf("[%-+jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+3jF] - l.%d\n", printf("[%-+3jF]", im) - 2, __LINE__);
@@ -2002,7 +2002,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15jF] - l.%d\n", printf("[%-+15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0jF] - l.%d\n", printf("[%-+15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5jF] - l.%d\n", printf("[%-+15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20jF] - l.%d\n", printf("[%-+15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15jF] - l.%d\n", printf("[%-+15.15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+ jF] - l.%d\n", printf("[%-+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3jF] - l.%d\n", printf("[%-+ 3jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0jF] - l.%d\n", printf("[%-+ 3.0jF]", im) - 2, __LINE__);
@@ -2012,7 +2012,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15jF] - l.%d\n", printf("[%-+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0jF] - l.%d\n", printf("[%-+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5jF] - l.%d\n", printf("[%-+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20jF] - l.%d\n", printf("[%-+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15jF] - l.%d\n", printf("[%-+ 15.15jF]", im) - 2, __LINE__);
 		// -' 'j
 		printf(" - %d - [%%- jF] - l.%d\n", printf("[%- jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%- 3jF] - l.%d\n", printf("[%- 3jF]", im) - 2, __LINE__);
@@ -2023,7 +2023,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15jF] - l.%d\n", printf("[%- 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0jF] - l.%d\n", printf("[%- 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5jF] - l.%d\n", printf("[%- 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20jF] - l.%d\n", printf("[%- 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15jF] - l.%d\n", printf("[%- 15.15jF]", im) - 2, __LINE__);
 		// +' 'j
 		printf(" - %d - [%%+ jF] - l.%d\n", printf("[%+ jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%+ 3jF] - l.%d\n", printf("[%+ 3jF]", im) - 2, __LINE__);
@@ -2034,7 +2034,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15jF] - l.%d\n", printf("[%+ 15jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0jF] - l.%d\n", printf("[%+ 15.0jF]", im) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5jF] - l.%d\n", printf("[%+ 15.5jF]", im) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20jF] - l.%d\n", printf("[%+ 15.20jF]", im) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15jF] - l.%d\n", printf("[%+ 15.15jF]", im) - 2, __LINE__);
 
 		// #0z
 		printf(" - %d - [%%#0zF] - l.%d\n", printf("[%#0zF]", st) - 2, __LINE__);
@@ -2046,7 +2046,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#015zF] - l.%d\n", printf("[%#015zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#015.0zF] - l.%d\n", printf("[%#015.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#015.5zF] - l.%d\n", printf("[%#015.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#015.20zF] - l.%d\n", printf("[%#015.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#015.15zF] - l.%d\n", printf("[%#015.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-zF] - l.%d\n", printf("[%#0-zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-3zF] - l.%d\n", printf("[%#0-3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-3.0zF] - l.%d\n", printf("[%#0-3.0zF]", st) - 2, __LINE__);
@@ -2056,7 +2056,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-15zF] - l.%d\n", printf("[%#0-15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.0zF] - l.%d\n", printf("[%#0-15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-15.5zF] - l.%d\n", printf("[%#0-15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0-15.20zF] - l.%d\n", printf("[%#0-15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0-15.15zF] - l.%d\n", printf("[%#0-15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+zF] - l.%d\n", printf("[%#0-+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3zF] - l.%d\n", printf("[%#0-+3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+3.0zF] - l.%d\n", printf("[%#0-+3.0zF]", st) - 2, __LINE__);
@@ -2066,7 +2066,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+15zF] - l.%d\n", printf("[%#0-+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.0zF] - l.%d\n", printf("[%#0-+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+15.5zF] - l.%d\n", printf("[%#0-+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0-+15.20zF] - l.%d\n", printf("[%#0-+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0-+15.15zF] - l.%d\n", printf("[%#0-+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0- zF] - l.%d\n", printf("[%#0- zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3zF] - l.%d\n", printf("[%#0- 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0- 3.0zF] - l.%d\n", printf("[%#0- 3.0zF]", st) - 2, __LINE__);
@@ -2076,7 +2076,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0- 15zF] - l.%d\n", printf("[%#0- 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.0zF] - l.%d\n", printf("[%#0- 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0- 15.5zF] - l.%d\n", printf("[%#0- 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0- 15.20zF] - l.%d\n", printf("[%#0- 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0- 15.15zF] - l.%d\n", printf("[%#0- 15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ zF] - l.%d\n", printf("[%#0-+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3zF] - l.%d\n", printf("[%#0-+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 3.0zF] - l.%d\n", printf("[%#0-+ 3.0zF]", st) - 2, __LINE__);
@@ -2086,7 +2086,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0-+ 15zF] - l.%d\n", printf("[%#0-+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.0zF] - l.%d\n", printf("[%#0-+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0-+ 15.5zF] - l.%d\n", printf("[%#0-+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0-+ 15.20zF] - l.%d\n", printf("[%#0-+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0-+ 15.15zF] - l.%d\n", printf("[%#0-+ 15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+zF] - l.%d\n", printf("[%#0+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+3zF] - l.%d\n", printf("[%#0+3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+3.0zF] - l.%d\n", printf("[%#0+3.0zF]", st) - 2, __LINE__);
@@ -2096,7 +2096,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+15zF] - l.%d\n", printf("[%#0+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.0zF] - l.%d\n", printf("[%#0+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+15.5zF] - l.%d\n", printf("[%#0+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0+15.20zF] - l.%d\n", printf("[%#0+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0+15.15zF] - l.%d\n", printf("[%#0+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+ zF] - l.%d\n", printf("[%#0+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3zF] - l.%d\n", printf("[%#0+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 3.0zF] - l.%d\n", printf("[%#0+ 3.0zF]", st) - 2, __LINE__);
@@ -2106,7 +2106,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0+ 15zF] - l.%d\n", printf("[%#0+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.0zF] - l.%d\n", printf("[%#0+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0+ 15.5zF] - l.%d\n", printf("[%#0+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0+ 15.20zF] - l.%d\n", printf("[%#0+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0+ 15.15zF] - l.%d\n", printf("[%#0+ 15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0 zF] - l.%d\n", printf("[%#0 zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0 3zF] - l.%d\n", printf("[%#0 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0 3.0zF] - l.%d\n", printf("[%#0 3.0zF]", st) - 2, __LINE__);
@@ -2116,7 +2116,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#0 15zF] - l.%d\n", printf("[%#0 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.0zF] - l.%d\n", printf("[%#0 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#0 15.5zF] - l.%d\n", printf("[%#0 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#0 15.20zF] - l.%d\n", printf("[%#0 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#0 15.15zF] - l.%d\n", printf("[%#0 15.15zF]", st) - 2, __LINE__);
 		// #-z
 		printf(" - %d - [%%#-zF] - l.%d\n", printf("[%#-zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-3zF] - l.%d\n", printf("[%#-3zF]", st) - 2, __LINE__);
@@ -2127,7 +2127,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-15zF] - l.%d\n", printf("[%#-15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-15.0zF] - l.%d\n", printf("[%#-15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-15.5zF] - l.%d\n", printf("[%#-15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#-15.20zF] - l.%d\n", printf("[%#-15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#-15.15zF] - l.%d\n", printf("[%#-15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+zF] - l.%d\n", printf("[%#-+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+3zF] - l.%d\n", printf("[%#-+3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+3.0zF] - l.%d\n", printf("[%#-+3.0zF]", st) - 2, __LINE__);
@@ -2137,7 +2137,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+15zF] - l.%d\n", printf("[%#-+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.0zF] - l.%d\n", printf("[%#-+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+15.5zF] - l.%d\n", printf("[%#-+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#-+15.20zF] - l.%d\n", printf("[%#-+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#-+15.15zF] - l.%d\n", printf("[%#-+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#- zF] - l.%d\n", printf("[%#- zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#- 3zF] - l.%d\n", printf("[%#- 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#- 3.0zF] - l.%d\n", printf("[%#- 3.0zF]", st) - 2, __LINE__);
@@ -2147,7 +2147,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#- 15zF] - l.%d\n", printf("[%#- 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.0zF] - l.%d\n", printf("[%#- 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#- 15.5zF] - l.%d\n", printf("[%#- 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#- 15.20zF] - l.%d\n", printf("[%#- 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#- 15.15zF] - l.%d\n", printf("[%#- 15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+ zF] - l.%d\n", printf("[%#-+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3zF] - l.%d\n", printf("[%#-+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 3.0zF] - l.%d\n", printf("[%#-+ 3.0zF]", st) - 2, __LINE__);
@@ -2157,7 +2157,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#-+ 15zF] - l.%d\n", printf("[%#-+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.0zF] - l.%d\n", printf("[%#-+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#-+ 15.5zF] - l.%d\n", printf("[%#-+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#-+ 15.20zF] - l.%d\n", printf("[%#-+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#-+ 15.15zF] - l.%d\n", printf("[%#-+ 15.15zF]", st) - 2, __LINE__);
 		// +z
 		printf(" - %d - [%%#+zF] - l.%d\n", printf("[%#+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+3zF] - l.%d\n", printf("[%#+3zF]", st) - 2, __LINE__);
@@ -2168,7 +2168,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+15zF] - l.%d\n", printf("[%#+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+15.0zF] - l.%d\n", printf("[%#+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+15.5zF] - l.%d\n", printf("[%#+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#+15.20zF] - l.%d\n", printf("[%#+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#+15.15zF] - l.%d\n", printf("[%#+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+ zF] - l.%d\n", printf("[%#+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3zF] - l.%d\n", printf("[%#+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+ 3.0zF] - l.%d\n", printf("[%#+ 3.0zF]", st) - 2, __LINE__);
@@ -2178,7 +2178,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%#+ 15zF] - l.%d\n", printf("[%#+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.0zF] - l.%d\n", printf("[%#+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%#+ 15.5zF] - l.%d\n", printf("[%#+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%#+ 15.20zF] - l.%d\n", printf("[%#+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%#+ 15.15zF] - l.%d\n", printf("[%#+ 15.15zF]", st) - 2, __LINE__);
 		// #' 'z
 		printf(" - %d - [%%# zF] - l.%d\n", printf("[%# zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%# 3zF] - l.%d\n", printf("[%# 3zF]", st) - 2, __LINE__);
@@ -2189,7 +2189,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%# 15zF] - l.%d\n", printf("[%# 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%# 15.0zF] - l.%d\n", printf("[%# 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%# 15.5zF] - l.%d\n", printf("[%# 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%# 15.20zF] - l.%d\n", printf("[%# 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%# 15.15zF] - l.%d\n", printf("[%# 15.15zF]", st) - 2, __LINE__);
 		// 0-z
 		printf(" - %d - [%%0-zF] - l.%d\n", printf("[%0-zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-3zF] - l.%d\n", printf("[%0-3zF]", st) - 2, __LINE__);
@@ -2200,7 +2200,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-15zF] - l.%d\n", printf("[%0-15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-15.0zF] - l.%d\n", printf("[%0-15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-15.5zF] - l.%d\n", printf("[%0-15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0-15.20zF] - l.%d\n", printf("[%0-15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0-15.15zF] - l.%d\n", printf("[%0-15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+zF] - l.%d\n", printf("[%0-+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+3zF] - l.%d\n", printf("[%0-+3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+3.0zF] - l.%d\n", printf("[%0-+3.0zF]", st) - 2, __LINE__);
@@ -2210,7 +2210,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+15zF] - l.%d\n", printf("[%0-+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.0zF] - l.%d\n", printf("[%0-+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+15.5zF] - l.%d\n", printf("[%0-+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0-+15.20zF] - l.%d\n", printf("[%0-+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0-+15.15zF] - l.%d\n", printf("[%0-+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+ zF] - l.%d\n", printf("[%0-+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3zF] - l.%d\n", printf("[%0-+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 3.0zF] - l.%d\n", printf("[%0-+ 3.0zF]", st) - 2, __LINE__);
@@ -2220,7 +2220,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0-+ 15zF] - l.%d\n", printf("[%0-+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.0zF] - l.%d\n", printf("[%0-+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0-+ 15.5zF] - l.%d\n", printf("[%0-+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0-+ 15.20zF] - l.%d\n", printf("[%0-+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0-+ 15.15zF] - l.%d\n", printf("[%0-+ 15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0- zF] - l.%d\n", printf("[%0- zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0- 3zF] - l.%d\n", printf("[%0- 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0- 3.0zF] - l.%d\n", printf("[%0- 3.0zF]", st) - 2, __LINE__);
@@ -2230,7 +2230,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0- 15zF] - l.%d\n", printf("[%0- 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.0zF] - l.%d\n", printf("[%0- 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0- 15.5zF] - l.%d\n", printf("[%0- 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0- 15.20zF] - l.%d\n", printf("[%0- 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0- 15.15zF] - l.%d\n", printf("[%0- 15.15zF]", st) - 2, __LINE__);
 		// 0+z
 		printf(" - %d - [%%0+zF] - l.%d\n", printf("[%0+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+3zF] - l.%d\n", printf("[%0+3zF]", st) - 2, __LINE__);
@@ -2241,7 +2241,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+15zF] - l.%d\n", printf("[%0+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+15.0zF] - l.%d\n", printf("[%0+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+15.5zF] - l.%d\n", printf("[%0+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0+15.20zF] - l.%d\n", printf("[%0+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0+15.15zF] - l.%d\n", printf("[%0+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+ zF] - l.%d\n", printf("[%0+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3zF] - l.%d\n", printf("[%0+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+ 3.0zF] - l.%d\n", printf("[%0+ 3.0zF]", st) - 2, __LINE__);
@@ -2251,7 +2251,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0+ 15zF] - l.%d\n", printf("[%0+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.0zF] - l.%d\n", printf("[%0+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0+ 15.5zF] - l.%d\n", printf("[%0+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0+ 15.20zF] - l.%d\n", printf("[%0+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0+ 15.15zF] - l.%d\n", printf("[%0+ 15.15zF]", st) - 2, __LINE__);
 		// 0' 'z
 		printf(" - %d - [%%0 zF] - l.%d\n", printf("[%0 zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0 3zF] - l.%d\n", printf("[%0 3zF]", st) - 2, __LINE__);
@@ -2262,7 +2262,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%0 15zF] - l.%d\n", printf("[%0 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0 15.0zF] - l.%d\n", printf("[%0 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%0 15.5zF] - l.%d\n", printf("[%0 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%0 15.20zF] - l.%d\n", printf("[%0 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%0 15.15zF] - l.%d\n", printf("[%0 15.15zF]", st) - 2, __LINE__);
 		// -+z
 		printf(" - %d - [%%-+zF] - l.%d\n", printf("[%-+zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+3zF] - l.%d\n", printf("[%-+3zF]", st) - 2, __LINE__);
@@ -2273,7 +2273,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+15zF] - l.%d\n", printf("[%-+15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+15.0zF] - l.%d\n", printf("[%-+15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+15.5zF] - l.%d\n", printf("[%-+15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%-+15.20zF] - l.%d\n", printf("[%-+15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%-+15.15zF] - l.%d\n", printf("[%-+15.15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+ zF] - l.%d\n", printf("[%-+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3zF] - l.%d\n", printf("[%-+ 3zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+ 3.0zF] - l.%d\n", printf("[%-+ 3.0zF]", st) - 2, __LINE__);
@@ -2283,7 +2283,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%-+ 15zF] - l.%d\n", printf("[%-+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.0zF] - l.%d\n", printf("[%-+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%-+ 15.5zF] - l.%d\n", printf("[%-+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%-+ 15.20zF] - l.%d\n", printf("[%-+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%-+ 15.15zF] - l.%d\n", printf("[%-+ 15.15zF]", st) - 2, __LINE__);
 		// -' 'z
 		printf(" - %d - [%%- zF] - l.%d\n", printf("[%- zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%- 3zF] - l.%d\n", printf("[%- 3zF]", st) - 2, __LINE__);
@@ -2294,7 +2294,7 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%- 15zF] - l.%d\n", printf("[%- 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%- 15.0zF] - l.%d\n", printf("[%- 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%- 15.5zF] - l.%d\n", printf("[%- 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%- 15.20zF] - l.%d\n", printf("[%- 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%- 15.15zF] - l.%d\n", printf("[%- 15.15zF]", st) - 2, __LINE__);
 		// +' 'z
 		printf(" - %d - [%%+ zF] - l.%d\n", printf("[%+ zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%+ 3zF] - l.%d\n", printf("[%+ 3zF]", st) - 2, __LINE__);
@@ -2305,13 +2305,13 @@ int				main(int argc, char *argv[])
 		printf(" - %d - [%%+ 15zF] - l.%d\n", printf("[%+ 15zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.0zF] - l.%d\n", printf("[%+ 15.0zF]", st) - 2, __LINE__);
 		printf(" - %d - [%%+ 15.5zF] - l.%d\n", printf("[%+ 15.5zF]", st) - 2, __LINE__);
-		printf(" - %d - [%%+ 15.20zF] - l.%d\n", printf("[%+ 15.20zF]", st) - 2, __LINE__);
+		printf(" - %d - [%%+ 15.15zF] - l.%d\n", printf("[%+ 15.15zF]", st) - 2, __LINE__);
 
-		nb = (nb == 0.0) ? 1.425315487 : -243.676767676666;
+		nb = (nb == 0.0) ? 1.425315487 : -243.376767676666;
 		s = (s == 0.0) ? 0.000000005 : 50000.0;
 		c = (c == 0.0) ? 42.42 : 54321.12345;
-		l = (l == 0.0) ? 8008.5 : 777.777;
-		ll = (ll == 0.0) ? 1703.6541684 : 1.01;
+		l = (l == 0.0) ? 8008.2 : 777.477;
+		ll = (ll == 0.0) ? 1703.0541684 : 1.01;
 		im = (im == 0.0) ? 101.101 : 11011.11011;
 		st = (st == 0.0) ? 42 : 1;
 	}
